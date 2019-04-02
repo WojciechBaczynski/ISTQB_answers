@@ -45,7 +45,7 @@ Debagowanie różni się od testowania. Testowanie dynamiczne może pokazać awa
 
 ### 1.3.1 Kandydat potrafi wyjaśnić siedem zasad testowania
 
-1. Testowania ujawnia usterki 
+1. Testowania ujawnia usterki
 2. Testowanie gruntowne jest niewykonalne
 3. Wczesne testowanie
 4. Kumulowanie się błędów
@@ -62,15 +62,15 @@ Podstawowy proces testowy składa się z następujących czynności:
 * planowanie i nadzór nad testami
 Planowanie testów polega na zdefiniowaniu celów testowania i określeniu czynności testowych potrzebnych do wypełnienia misji i celów testowania.
 * analiza i projektowanie testów
-Podczas analizy i projektowania testów ogólne cele testowania przekształcane są w konkretne warunki testowe i przypadki testowe. 
+Podczas analizy i projektowania testów ogólne cele testowania przekształcane są w konkretne warunki testowe i przypadki testowe.
 * implementacja i wykonanie testów
 Implementacja i wykonanie testów, to czynność, podczas której specyfikowane są procedury i skrypty testowe przez ustawienie przypadków testowych w konkretnej kolejności oraz dołączenie innych informacji potrzebnych do wykonania testów, konfigurowane jest środowisko testowe oraz wykonywane są testy.  
-* ocena kryteriów zakończenia i raportowanie 
+* ocena kryteriów zakończenia i raportowanie
 Ocena spełnienia kryteriów zakończenia polega na ocenie wykonania testów zgodnie z przyjętymi celami testowania. Powinna ona być wykonywana dla każdego poziomu testowania.
-* czynności zamykające test 
+* czynności zamykające test
 W ramach czynności zamykających testy zbierane są dane z zakończonych czynności testowych, żeby utrwalić doświadczenie, testalia, fakty i liczby. Czynności zamykające testy wykonywane są przy kamieniach milowych projektu takich jak: wydanie systemu, zakończenie (lub anulowanie) projektu testowego, osiągnięcie kamienia milowego, lub zakończenie wydania serwisowego.
 
-## 1.5	Psychologia testowania
+## 1.5 Psychologia testowania
 
 Można uniknąć spięć pomiędzy testerami, a analitykami, projektantami i programistami
 przez komunikowanie błędów, usterek i awarii w sposób konstruktywny. Ta zasada ma
@@ -142,7 +142,7 @@ tworzonej podczas wytwarzania
 
 ## 2.2 Poziomy testów  
 
-### 2.2.1 Kandydat potrafi porównać różne poziomy testów: główne cele, typowe przedmioty testów, typowe cele testowania (np. strukturalne lub funkcjonalne) i związane z nimi produkty, testerów, typy usterek i awarii do znalezienia.
+### 2.2.1 Kandydat potrafi porównać różne poziomy testów: główne cele, typowe przedmioty testów, typowe cele testowania (np. strukturalne lub funkcjonalne) i związane z nimi produkty, testerów, typy usterek i awarii do znalezienia
 
 #### Testy modułowe
 
@@ -346,7 +346,7 @@ systemu operacyjnego.
 Testy pielęgnacyjne migracji oprogramowania (np. z jednej platformy na inną) powinny,
 oprócz testów zmian w oprogramowaniu, uwzględniać również testy produkcyjne nowego
 środowiska. Testy migracji (testowanie konwersji) są również potrzebne, gdy dane z innej
-aplikacji są migrowane do utrzymywanego systemu. 
+aplikacji są migrowane do utrzymywanego systemu.
 
 ### 2.4.3 Kandydat potrafi opisać rolę testów regresywnych i analizy wpływu w utrzymaniu
 
@@ -514,15 +514,39 @@ ilości czasu w harmonogramach na zadania związane z przeglądem)
 
 ## 3.3 Analiza statyczna przy pomocy narzędzi
 
-
-
 ### 3.3.1 Kandydat pamięta typowe błędy wykrywane przez analizę statyczną i umie porównać je z przeglądami i testami dynamicznymi
 
-
+Celem analizy statycznej jest wyszukanie usterek w kodzie programu lub w modelach bez
+uruchamiania oprogramowania, które jest sprawdzane przez narzędzie używane w tym
+procesie. Miejscem, w którym kod jest wykonywany, są testy dynamiczne. Analiza statyczna
+może znaleźć usterki, które są trudne do znalezienia podczas testowania dynamicznego. Tak
+jak to było w przypadku przeglądów, analiza statyczna znajduje usterki, a nie awarie.
+Narzędzia do analizy statycznej analizują kod oprogramowania (np. przepływ sterowania lub
+przepływ danych) jak również wygenerowane wyjście w postaci HTMLa lub XMLa.
 
 ### 3.3.2 Kandydat potrafi opisać używając przykładów typowe korzyści z analizy statycznej
 
+O wartości analizy statycznej stanowią następujące jej cechy:
 
+* wczesne wykrywanie usterek, jeszcze przed wykonaniem testów
+wczesne wykrywanie podejrzanych aspektów kodu lub projektu przez wyliczenie
+miar, takich jak wysoki stopień złożoności
+* identyfikacja defektów trudnych do wykrycia przez testowanie
+* wykrywanie zależności i niespójności w modelach oprogramowania
+* zwiększenie pielęgnowalności kodu i projektu
+* zapobieganie defektom, jeżeli zastosowane zostają wnioski z analizy procesu rozwoju
+oprogramowania
 
 ### 3.3.3 Kandydat potrafi wymienić typowe defekty kodu i projektu, które mogą zostać wykryte przez narzędzia do analizy statycznej
 
+Analiza statyczna zwykle wykrywa następujące typy usterek:
+
+* odwołanie do niezainicjalizowanej zmiennej
+* niespójne interfejsy pomiędzy modułami
+* niewykorzystywane lub niepoprawnie zadeklarowane zmienne
+* martwy kod
+* brakująca albo błędna logika (pętle potencjalnie nieskończone)
+* zbyt skomplikowane konstrukcje
+* naruszenie standardów kodowania
+* słabe punkty zabezpieczeń
+* naruszenie reguł składni kodu i modeli oprogramowania
