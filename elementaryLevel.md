@@ -550,3 +550,271 @@ Analiza statyczna zwykle wykrywa następujące typy usterek:
 * naruszenie standardów kodowania
 * słabe punkty zabezpieczeń
 * naruszenie reguł składni kodu i modeli oprogramowania
+
+## 4.1 Proces rozwoju testów
+
+### 4.1.1 Kandydat odróżnia projekt testów od specyfikacji przypadków testowych oraz od procedury testowej
+
+Podczas projektowania testów tworzy się i opisuje przypadki testowe i dane testowe.
+Przypadek testowy składa się ze zbioru wartości wejściowych, warunków wstępnych,
+oczekiwanych wyników oraz warunków zakończenia utworzonych żeby pokryć pewne cele
+testów lub warunki testowe.  
+Jako część specyfikacji przypadku testowego powinny zostać określone wyniki oczekiwane.
+Powinny one zawierać opis wyjść, zmian w danych i stanie oprogramowania oraz inne skutki
+testu. Gdy wyniki oczekiwane nie są zdefiniowane, może się zdarzyć, że wiarygodne, ale
+błędne, wyniki zostaną uznane za poprawne. Najlepiej jest, gdy wyniki oczekiwane zostaną
+zdefiniowane przed wykonaniem testów.
+Podczas implementacji testów przypadki testowe są rozwijane, implementowane,
+priorytetyzowane i układane w specyfikację procedur testowych.
+Procedura testowa zawiera kolejność działań podczas wykonania testu. Jeżeli testy są
+wykonywane przy pomocy narzędzia do wykonywania testów, ciąg akcji jest zawarty w
+skrypcie testowym (który stanowi automatyczną procedurę testową).
+
+### 4.1.2 Kandydat potrafi porównać następujące pojęcia: warunek testowy, przypadek testowy, procedura testowa
+
+### 4.1.3 Kandydat potrafi ocenić jakość przypadków testowych, przez sprawdzenie czy mają jednoznaczne powiązania z wymaganiami i czy zawierają wynik oczekiwany
+
+### 4.1.4 Kandydat potrafi utworzyć z przypadków testowych dobrze ustrukturalizowaną procedurę testową na poziomie szczegółowości odpowiadającym wiedzy testerów
+
+Różne procedury testowe i automatyczne skrypty testowe są następnie układane
+w harmonogram wykonania testów, który definiuje porządek wykonania procedur testowych
+i automatycznych skryptów testowych (o ile są obecne). Przy tworzeniu harmonogramu
+wykonania testów bierze się pod uwagę takie czynniki jak testy regresywne, priorytety oraz
+zależności techniczne i logiczne.
+
+## 4.2 Kategorie technik projektowania testów
+
+### 4.2.1 Kandydat pamięta do czego przydatne są techniki projektowania testów oparte na specyfikacji (czarnoskrzynkowe) oraz techniki oparte na strukturze (białoskrzynkowe) oraz potrafi wymienić typowe dla nich techniki
+
+Klasyczny podział wyróżnia techniki czarnoskrzynkowe oraz białoskrzynkowe.
+Czarnoskrzynkowe techniki projektowania testów (również nazywane technikami opartymi
+na specyfikacji) są sposobem na wywodzenie[1] oraz wybieranie warunków testowych,
+przypadków testowych i danych testowych bazującym na analizie podstawy testów. Można
+ich używać zarówno w testowaniu funkcjonalnym jak i niefunkcjonalnym. Techniki
+czarnoskrzynkowe z definicji nie wykorzystują żadnych informacji o strukturze wewnętrznej
+testowanego modułu lub systemu. Białoskrzynkowe techniki projektowania testów (również
+nazywane strukturalnymi lub technikami opartymi na strukturze) bazują na analizie struktury
+modułu lub systemu. Testy biało i czarnoskrzynkowe mogą również korzystać z
+doświadczenia programistów, testerów i użytkowników w celu określenia, co powinno zostać
+przetestowane. Niektóre techniki da się przyporządkować jednoznacznie do jednej kategorii, inne zawierają
+elementy więcej niż jednej kategorii. W tym sylabusie techniki projektowania testów oparte
+na specyfikacji nazywane są technikami czarnoskrzynkowymi, a techniki oparte na strukturze
+– białoskrzynkowymi. Techniki oparte na doświadczeniu omówione są oddzielnie.
+
+### 4.2.2 Kandydat potrafi objaśnić cechy, podobieństwa oraz różnice pomiędzy technikami opartymi na specyfikacji, strukturze i doświadczeniu
+
+Cechy wspólne technik projektowania testów opartych na specyfikacji, to m.in.:
+
+* w specyfikacji problemu do rozwiązania, oprogramowania lub jego komponentów
+używane są modele
+* z tych modeli można, w sposób usystematyzowany, wywodzić przypadki testowe
+Cechy wspólne technik projektowania testów opartych na strukturze, to m.in.:
+* do tworzenia przypadków testowych wykorzystywana jest wiedza o tym jak
+oprogramowanie jest skonstruowane, np. kod źródłowy lub szczegółowy projekt
+* można mierzyć stopień pokrycia istniejących przypadków testowych, można też
+w sposób usystematyzowany tworzyć nowe przypadki testowe w celu zwiększenia
+pokrycia
+Cechy wspólne technik projektowania testów opartych na doświadczeniu, to m.in.:
+* do tworzenia przypadków testowych wykorzystywane jest doświadczenie ludzi
+  * wiedza testerów, programistów,        użytkowników oraz innych interesariuszy o
+    oprogramowaniu, jego środowisku i sposobie użytkowania
+  * wiedza o prawdopodobnych defektach i ich położeniu
+
+## 4.3 Techniki oparte na specyfikacji lub czarnoskrzynkowe
+
+### 4.3.1 Kandydat potrafi napisać przypadki testowe na podstawie podanych modeli oprogramowania używając techniki klas równoważności, analizy wartości brzegowych, testowania w oparciu o tablicę decyzyjną, testowania przejść pomiędzy stanami
+
+#### Podział na klasy  równoważności
+
+W technice podziału na klasy równoważności wejścia programu lub systemu są dzielone na
+grupy, które powodują podobne zachowanie oprogramowania, więc wysoce
+prawdopodobne jest to, że są przetwarzane w ten sam sposób. Klasy równoważności można
+znaleźć dla danych poprawnych (wartości, które powinny zostać zaakceptowane) oraz
+niepoprawnych (wartości, które powinny zostać odrzucone). Klasy równoważności można
+znaleźć również dla wyjść, wartości wewnętrznych, wartości zależnych od czasu (np. przed
+lub po zajściu jakiegoś zdarzenia) oraz parametrów interfejsów (np. komponentów
+integrowanych i testowanych podczas testów integracyjnych). Testy można tak zaprojektować, żeby pokrywały akceptowalne i nieakceptowalne klasy równoważności.
+Podział na klasy równoważności można zastosować na każdym poziomie testowania.
+
+#### Analiza wartości  brzegowych
+
+Istnieje większe prawdopodobieństwo, że oprogramowanie będzie się błędnie zachowywać
+dla wartości na krawędziach klas równoważności niż w ich środku, więc testowanie tych
+obszarów najprawdopodobniej wykryje błędy. Minimum i maksimum klasy równoważności
+to jej wartości brzegowe. Wartość brzegowa poprawnego przedziału jest nazywana
+poprawną wartością brzegową, a wartość brzegowa niepoprawnego przedziału –
+niepoprawną wartością brzegową. Testy można zaprojektować tak, żeby pokrywały zarówno
+poprawne jak i niepoprawne wartości brzegowe. Podczas projektowania testów tworzy się
+przypadek testowy dla każdej wartości brzegowej
+
+#### Testowanie w oparciu o tablicę  decyzyjną
+
+Tabele decyzyjne są dobrym sposobem na uchwycenie tych wymagań na system, które
+zawierają zależności logiczne, oraz na udokumentowanie wewnętrznej budowy systemu.
+Mogą być używane do zapisywania złożonych reguł biznesowych, które system ma
+obsługiwać. Podczas tworzenia tablic decyzyjnych analizuje się specyfikację systemu
+i wyszukuje warunki oraz wynikające z nich zachowanie systemu. Warunki wejściowe oraz
+zachowanie systemu często muszą być zapisane jako prawda lub fałsz (Boolean). Tabela
+decyzyjna zawiera warunki uruchamiające, często jako kombinacje prawdy i fałszu, dla
+wszystkich warunków wejściowych oraz działania wynikające z każdej z tych kombinacji.
+Każda kolumna tabeli odpowiada jednej regule biznesowej, która definiuje unikalną
+kombinację warunków i której skutkiem jest działanie związane z daną regułą biznesową.
+Standardowe pokrycie stosowane dla testowania w oparciu o tabelę decyzyjną wymaga
+zaprojektowania jednego testu dla każdej kolumny w tablicy, co zwykle oznacza
+wykorzystanie wszystkich kombinacji warunków uruchamiających.
+
+#### Testowanie przejść między  stanami
+
+System może różnie odpowiadać w zależności od aktualnych warunków oraz od historii (od
+stanu). W takim przypadku zachowanie systemu można opisać diagramem przejść stanów
+(automatem skończonym). Pozwala to testerowi spojrzeć na oprogramowanie od strony
+stanów, przejść między stanami, wejść lub zdarzeń, które powodują zmiany stanów
+(przejścia) oraz na działania, które mogą wynikać z tych przejść. Stany testowanego systemu
+lub elementu są rozdzielne, zdefiniowane oraz ich liczba jest skończona. Tabela stanów
+pokazuje zależności pomiędzy stanami oraz wejściami i może uwypuklić przejścia
+nieprawidłowe. Testy można zaprojektować tak, żeby pokryły typowe sekwencje stanów,
+każdy stan, każde przejście, konkretny ciąg przejść lub żeby testowały przejścia
+nieprawidłowe.
+
+### 4.3.2 Kandydat potrafi wyjaśnić główny cel każdej z czterech technik testowania, na jakim poziomie testowania mogą zostać użyte i jak można dla nich zmierzyć pokrycie
+
+#### Podział na klasy równoważności
+
+Technika podziału na klasy równoważności może zostać użyta do osiągnięcia celów pokrycia
+zarówno wejścia jak i wyjścia. Może zostać zastosowana do wartości wejściowych
+wprowadzanych ręcznie, przez interfejsy oraz do parametrów interfejsów podczas testów
+integracyjnych.
+
+#### Analiza wartości brzegowych
+
+Analiza wartości brzegowych może zostać zastosowana na każdym poziomie testowania. Jest
+ona stosunkowo łatwa w użyciu i daje duże możliwości wykrywania usterek. Szczegółowa
+specyfikacja jest pomocna w znajdowaniu interesujących wartości brzegowych.
+Technika ta jest często uważana za rozwinięcie techniki podziału na klasy równoważności lub
+innych technik czarnoskrzynkowych. Może być użyta dla klas równoważności wartości
+wprowadzanych przez interfejs użytkownika jak również, na przykład, dla przedziałów
+czasowych (np. time outów, wymagań na szybkość przetwarzania transakcji) lub zakresów
+tablic (np. rozmiar tablicy ma być 256x256).
+
+#### Testowanie w oparciu o tablicę decyzyjną
+
+Moc testowania w oparciu o tabelę decyzyjną leży w uwidocznieniu kombinacji warunków,
+które w innym przypadku mogłyby zostać pominięte w testach. Technika ta ma zastosowanie
+w każdej sytuacji, w której zachowanie oprogramowania zależy od kilku decyzji logicznych.
+
+#### Testowanie przejść między stanami
+
+Testowanie przejść między stanami jest często używane w testowaniu oprogramowania
+wbudowanego oraz ogólnie w automatyce. Jednakże technikę tę można zastosować do
+zamodelowania obiektu biznesowego posiadającego określone stany lub do testowania
+przejść między formatkami (np. w aplikacjach internetowych lub scenariuszach
+biznesowych).
+
+### 4.3.3 Kandydat potrafi wyjaśnić na czym polega testowanie w oparciu o przypadki użycia i korzyści płynące z jego zastosowania
+
+Testy można projektować na podstawie przypadków użycia. Przypadek użycia opisuje
+interakcje pomiędzy aktorami (użytkownikami lub systemami), które powodują powstanie
+wyniku wartościowego z punktu widzenia użytkownika lub klienta. Przypadek użycia może
+być opisany na wysokim poziomie abstrakcji (biznesowy przypadek użycia, poziom procesów
+biznesowych, niezawierający informacji o technologii) lub na poziomie systemowym
+(systemowy przypadek użycia na poziomie funkcjonalności systemu). Każdy przypadek użycia
+posiada warunki wstępne, które muszą zostać spełnione, żeby przypadek użycia został
+wykonany. Każdy przypadek użycia kończy się warunkami końcowymi. Są nimi widoczne
+rezultaty jego wykonania oraz stan systemu po zakończeniu przypadku użycia. Przypadki
+użycia zwykle posiadają scenariusz główny (tj. najbardziej prawdopodobny) oraz czasami
+scenariusze poboczne.
+
+Przypadki użycia opisują „przepływy” procesu przez system bazując na najbardziej
+prawdopodobnym rzeczywistym jego użyciu, co sprawia że przypadki testowe wywiedzione
+z przypadków użycia najbardziej przydają się wykrywaniu usterek w przepływach procesów
+z rzeczywistego użytkowania systemu. Przypadki użycia bardzo przydają się w projektowaniu
+testów akceptacyjnych, w których ma brać udział klient/użytkownik. Pomagają również
+wykrywać defekty integracji spowodowane interakcją i interfejsami różnych modułów, co nie
+byłoby widoczne w testach modułowych. Projektowanie przypadków testowych z przypadków użycia może zostać połączone z innymi technikami projektowania testów
+opartymi na specyfikacji.
+
+## 4.4 Techniki oparte na strukturze lub białoskrzynkowe
+
+### 4.4.1 Kandydat potrafi opisać pojęcie pokrycia kodu i jego znaczenie
+
+Testowanie oparte na strukturze (białoskrzynkowe) bazuje na rozpoznanej strukturze
+oprogramowania lub systemu tak jak to widać w następujących przykładach:
+
+* w testach modułowych: strukturą jest kod, to jest instrukcje, decyzje, rozgałęzienia
+lub nawet rozróżnialne ścieżki
+* w testach integracyjnych: strukturą może być hierarchia wywołań (diagram, który
+pokazuje jak moduły wywołują inne moduły)
+* w testach systemowych: strukturą może być budowa menu, proces biznesowy lub
+struktura strony webowej
+
+Pokrycie instrukcji oblicza się przez podzielenie liczby wykonywalnych instrukcji pokrytych
+przez (zaprojektowane lub wykonane) przypadki testowe, przez liczbę wszystkich
+wykonywalnych instrukcji w testowanym kodzie.
+
+### 4.4.2 Kandydat potrafi wyjaśnić pojęcia: pokrycia instrukcji i pokrycia decyzji oraz podać powody, dla których te pojęcia mogą zostać użyte nie tylko na poziomie testów modułowych, ale na przykład też dla procedur biznesowych na poziomie testów systemowych)
+
+W testowaniu instrukcji stosuje się pokrycie instrukcji, które polega na zmierzeniu, jaki
+odsetek instrukcji wykonywalnych został przetestowany przez zestaw testów. W technice tej
+projektuje się przypadki testowe, tak by wykonać określone instrukcje, zwykle po to żeby
+zwiększyć pokrycie.
+
+Pokrycie decyzji, spokrewnione z testowaniem gałęzi, polega na zmierzeniu jaki odsetek
+wyników decyzji (np. wyniku prawda lub fałsz instrukcji if) został przetestowany przez zestaw
+testów. W technice testowania decyzji projektuje się przypadki testowe tak aby pokryć
+określone wyniki decyzji. Gałęzie zaczynają się w punktach decyzyjnych i pokazują
+przekazanie sterowania do różnych miejsc w kodzie. Testowanie gałęzi różni się od
+testowania decyzji przez to, że skupia się na samych gałęziach.
+
+### 4.4.3 Kandydat potrafi napisać przypadki testowe dla danych przepływów sterowania stosując techniki testowania instrukcji i testowania decyzji
+
+### 4.4.4 Kandydat potrafi ocenić kompletność testów według zdefiniowanych kryteriów zakończenia na podstawie pokrycia instrukcji i decyzji
+
+Testowanie decyzji jest jedną z form testowania przepływu sterowania, ponieważ podąża za
+konkretnym przepływem sterowania przez punkty decyzyjne. Pokrycie decyzji jest
+mocniejsze niż pokrycie instrukcji. 100% pokrycia decyzji gwarantuje 100% pokrycia
+instrukcji, ale nie odwrotnie.
+
+## 4.5 Techniki oparte na doświadczeniu
+
+### 4.5.1 Kandydat pamięta powody pisania przypadków testowych opierających się na intuicji, doświadczeniu oraz wiedzy na temat często spotykanych usterek
+
+Z testowaniem opartym na doświadczeniu mamy do czynienia, gdy testy projektuje się na
+podstawie wiedzy i intuicji testerów oraz ich doświadczenia z podobnymi aplikacjami
+i technologiami. Jeżeli zostanie ono użyte jako uzupełnienie technik systematycznych
+(zwłaszcza gdy zostanie zastosowane po nich), może okazać się użyteczne w uchwyceniu
+specjalnych przypadków testowych, których nie da się łatwo zaprojektować używając technik
+formalnych. Niemniej jednak jego skuteczność może okazać się bardzo różna w zależności od
+doświadczenia testerów.
+
+Szeroko wykorzystywaną techniką opartą na doświadczeniu jest zgadywanie błędów. Ogólnie
+rzecz biorąc testerzy przewidują usterki bazując na swoim doświadczeniu.
+Ustrukturalizowane podejście do zgadywania błędów polega na sporządzeniu listy możliwych
+defektów i na zaprojektowaniu testów, które atakują te defekty. To systematyczne podejście
+jest nazywane atakiem usterkowym. Listy defektów i awarii można budować na podstawie
+doświadczenia, dostępnych danych na temat usterek i awarii oraz na ogólnej wiedzy
+dlaczego oprogramowanie nie działa.
+
+### 4.5.2 Kandydat potrafi porównać techniki oparte na doświadczeniu z technikami opartymi na specyfikacji
+
+Testowanie eksploracyjne polega na równoległym projektowaniu testów, ich wykonywaniu,
+zapisywaniu wyników oraz uczeniu się, bazując na zamówieniu na testy zawierającym cele
+testów i trzymając się ram czasowych. To podejście okazuje się najpożyteczniejsze, gdy nie ma specyfikacji, albo jest ona niekompletna czy przestarzała, również w sytuacjach bardzo
+krótkiego czasu na testy. Przydaje się ono również do wzbogacenia i uzupełnienia bardziej
+formalnych testów. Może służyć też do kontroli procesu testowania w celu upewnienia się,
+że wszystkie najpoważniejsze usterki zostały wykryte.
+
+## 4.6 Wybór technik testowania
+
+### 4.6.1 Kandydat potrafi podzielić techniki projektowania testów według ich dopasowania do danego kontekstu, podstawy testowania, modeli oraz cech oprogramowania
+
+Wybór, która technika testowania powinna zostać użyta, zależy od wielu czynników, m.in.
+typu systemu, regulacji prawnych, wymagań klienta lub kontraktu, poziomu ryzyka, typu
+ryzyka, celu testów, dostępnej dokumentacji, wiedzy testerów, czasu i budżetu, cyklu
+rozwoju oprogramowania, modelu przypadków użycia oraz doświadczenia związanego ze
+znajdowanymi typami usterek.
+Niektóre z technik można z większą korzyścią zastosować tylko na niektórych poziomach
+testowania. Inne techniki można z równym powodzeniem stosować na wszystkich
+poziomach testów.
+Podczas projektowania przypadków testowych testerzy zwykle stosują różne techniki
+projektowania testów włącznie z technikami opartymi na procesie, regułach oraz danych, po
+to żeby zapewnić odpowiednie pokrycie testowanego obiektu.
