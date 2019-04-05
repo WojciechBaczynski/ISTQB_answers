@@ -1110,17 +1110,89 @@ i testów
 
 ### 5.5.2 Kandydat pamięta, że poziom ryzyka jest określany przez prawdopodobieństwo wystąpienia oraz wpływ (potencjalną szkodę, jaką może uczynić gdy wystąpi)
 
+Ryzyka używa się do określenia, kiedy rozpocząć testowanie oraz co powinno zostać
+dokładniej przetestowane. Testowanie jest wykorzystywane do zredukowania ryzyka
+wystąpienia niekorzystnych zdarzeń lub do zredukowania ich wpływu.
+
 ### 5.5.3 Kandydat rozróżnia elementy ryzyka projektowego i produktowego
 
 ### 5.5.4 Kandydat rozpoznaje typowe elementy ryzyka projektowego i produktowego
 
+Potencjalne obszary wystąpienia awarii (przyszłych niekorzystnych zdarzeń lub
+niebezpieczeństw) w oprogramowaniu lub systemie nazywane są ryzykiem
+produktowym, ponieważ stanowią ryzyko dla jakości produktu. Mogą to być:
+
+* dostarczanie awaryjnego oprogramowania
+* możliwość wyrządzenia szkody człowiekowi lub firmie przez oprogramowanie lub
+sprzęt
+* niedostateczne atrybuty oprogramowania (np. funkcjonalność, niezawodność,
+użyteczność lub wydajność)
+* niska jakość lub brak spójności danych (np. problemy z migracją danych, problemy
+z konwersją danych, problemy z przekazywaniem danych, naruszenie standardów
+danych)
+* oprogramowanie, które nie spełnia założonych funkcji
+
+Oparte na ryzyku podejście do testowania umożliwia w sposób proaktywny obniżanie ryzyka
+produktowego rozpoczynając już od wstępnej fazy projektu. Zawiera ono identyfikację
+obszarów ryzyka produktowego, co umożliwia użycie ich jako wskazówek w planowaniu
+i kontroli testów, specyfikacji, przygotowaniu oraz wykonaniu testów. W podejściu do testów
+opartym na ryzyku zidentyfikowane obszary ryzyka mogą zostać wykorzystane do:
+
+* określenia technik testowania, które powinny zostać użyte
+* określenia zakresu testów
+* priorytetyzacji testów w celu znalezienia usterek krytycznych tak wcześnie jak to tylko
+możliwe
+* określenia, czy nie można użyć działań niezwiązanych z testowaniem w celu redukcji
+ryzyka (np. przeszkolenie niedoświadczonych projektantów)
+
 ### 5.5.5 Kandydat potrafi opisać przy użyciu przykładów jak analiza ryzyka i zarządzanie ryzykiem mogą zostać wykorzystane przy planowaniu testów
+
+Testowanie oparte na ryzyku bazuje na grupowej wiedzy i obserwacjach interesariuszy
+projektu w celu określenia obszarów ryzyka oraz poziomów testowania wymaganych, żeby
+odnieść się do nich.
+
+W celu zapewnienia minimalizacji szansy wystąpienia awarii produktu, zarządzanie ryzykiem
+daje zdyscyplinowane podejście do:
+
+* oceny (powtarzanej regularnie), co może pójść nie tak (ryzyka)
+* ustalenia, którymi obszarami ryzyka należy się zająć
+* wdrożenia działań zarządzających tymi obszarami ryzyka
 
 ## 5.6 Zarządzanie incydentami
 
 ### 5.6.1 Kandydat zna zawartość raportu incydentu zgodnie ze standardem dokumentacji testowania oprogramowania
 
+#### Raport incydentów może zawierać następujące szczegóły
+
+* datę zgłoszenia, zgłaszającą organizację oraz autora
+* wyniki oczekiwane oraz rzeczywiste
+* wskazanie na element testowy (element konfiguracji) oraz na środowisko
+* proces cyklu życia oprogramowania lub systemu w którym incydent został
+zaobserwowany
+* opis incydentu, w celu umożliwienia odtworzenia i rozwiązania, włącznie z logami,
+zrzutami baz danych oraz zrzutami ekranu
+* obszar lub stopień wpływu na interesy interesariuszy
+* stopień wpływu na system
+* pilność, priorytet naprawy
+* status incydentu (np. otwarty, odłożony, duplikat, oczekujący na naprawę,
+naprawiony i oczekujący na retest, zamknięty)
+* podsumowania, rekomendacje oraz zgody
+* zagadnienia globalne, takie jak inne obszary, na które mogą mieć wpływ zmiany
+związane z incydentem
+* historia zmian, np. ciąg czynności podjętych przez członków zespołu w celu
+wyizolowania incydentu, jego naprawy oraz potwierdzenia tej naprawy
+* referencje, włączając w to identyfikator specyfikacji przypadku testowego, który
+wykrył problem
+
 ### 5.6.2 Kandydat potrafi napisać raport incydentu zawierający opis awarii zaobserwowanej podczas testowania
+
+#### Raporty incydentów istnieją w celu
+
+* dostarczenia programistom i innym stronom informacji na temat problemów, aby
+umożliwić identyfikację, wyodrębnienie i naprawę, jeżeli okaże się to konieczne
+* dostarczenia liderom testów środków do śledzenia jakości testowanego systemu oraz
+postępu testów
+* dostarczenia pomysłów na doskonalenie procesu testowania
 
 ## 6.1 Typy narzędzi testowych
 
