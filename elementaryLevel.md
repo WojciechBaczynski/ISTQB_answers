@@ -1198,18 +1198,147 @@ postępu testów
 
 ### 6.1.1 Kandydat potrafi podzielić różne typy narzędzi testowych według ich celów, według czynności w podstawowym procesie testowym oraz w cyklu życia oprogramowania
 
-### 6.1.3 Kandydat potrafi wyjaśnić pojęcie "narzędzie testowe" oraz cel wsparcia narzędziowego dla testów
+#### Narzędzia testowe mogą być wykorzystywane w jednej lub wielu czynnościach wspierających testowanie. Mogą to być
+
+* narzędzia używane wprost w testach takie jak narzędzia wspierające wykonanie
+testów, narzędzia generujące dane testowe i narzędzia porównujące wyniki
+* narzędzia wspomagające zarządzanie procesem testowym takie jak narzędzia do
+zarządzania testami, wynikami testów, danymi, wymaganiami, incydentami,
+defektami itd. oraz narzędzia raportujące i monitorujące wykonanie testów
+* narzędzia używane w rozpoznaniu (eksploracji), np. narzędzia monitorujące dostęp
+do plików przez aplikację
+* dowolne narzędzie wspierające testy (w takim znaczeniu arkusz kalkulacyjny jest
+również narzędziem testowym)
+
+#### W zależności od kontekstu wsparcie narzędziowe dla testów może mieć jeden lub kilka z poniższych celów
+
+* zwiększenie efektywności czynności testowych przez zautomatyzowanie
+powtarzających się zadań lub wsparcie dla czynności testowych wykonywanych
+ręcznie takich jak planowanie testów, projektowanie testów, raportowanie
+i monitorowanie testów
+* automatyzacja czynności, które wymagałyby wielkich nakładów, gdyby były
+wykonywane ręcznie (np. testy statyczne)
+* automatyzacja czynności, które nie mogą być wykonane ręcznie (np. testy aplikacji
+klient-serwer na wielką skalę)
+* zwiększenie niezawodności testów (np. przez automatyzację porównywania dużej
+ilości danych lub symulacje)
+
+### 6.1.2 Kandydat potrafi wyjaśnić pojęcie "narzędzie testowe" oraz cel wsparcia narzędziowego dla testów
+
+Istnieje wiele narzędzi wspierających różne aspekty testowania. Narzędzia testowe można
+podzielić na wiele sposobów: według celów, na komercyjne, darmowe, o otwartym kodzie,
+shareware, według wykorzystywanej technologii i tak dalej. W tym sylabusie narzędzia są
+podzielone na grupy według wspieranych przez nie czynności testowych.
+Niektóre narzędzia wspierają jeden rodzaj czynności. Inne mogą być przydatne w różnych
+czynnościach testowych, ale zostały zaklasyfikowane do tej grupy, z którą są najmocniej
+związane. Narzędzia od jednego dostawcy, a szczególnie narzędzia, które zostały
+zaprojektowane do współdziałania, mogą zostać powiązane w jeden pakiet.
+Niektóre typy narządzi są inwazyjne w tym sensie, że samo narzędzie może wpływać na
+wynik rzeczywisty testu. Na przykład czasy uzyskane podczas testów wydajnościowych mogą
+się różnić, ponieważ narzędzie wykonuje dodatkowe instrukcje, albo można uzyskać różne
+wyniki pokrycia kodu. Zjawisko to jest nazywane efektem próbnika.
 
 ## 6.2 Skuteczne użycie narzędzi, potencjalne korzyści i ryzyko
 
 ### 6.2.1 Kandydat potrafi opisać krótko potencjalne korzyści oraz ryzyko automatyzacji testów oraz wspierania testów narzędziami
 
+#### Potencjalnymi korzyściami z używania narzędzi są
+
+* zredukowana zostaje powtarzająca się praca (np. uruchamianie testów
+regresywnych, powtórne wprowadzanie tych samych danych testowych oraz
+sprawdzanie zgodności ze standardami kodowania)
+* zwiększa się spójność i powtarzalność (np. testy wykonywane przez narzędzie w tej
+samej kolejności i z tą samą częstością oraz testy wywiedzione z wymagań)
+* ocena jest obiektywna (np. miary statyczne, pokrycie)
+* łatwiejszy jest dostęp do danych o testach i testowaniu (np. statystyki i wykresy
+obrazujące postęp testów, współczynniki występowania incydentów oraz wydajność)
+
+#### Ryzyko związane z narzędziami do testowania obejmuje
+
+* nierealistyczne oczekiwania od narzędzia (co do funkcjonalności lub łatwości użycia)
+* niedoszacowanie czasu, kosztów oraz pracochłonności wstępnego wdrożenia
+narzędzia (włączając w to szkolenia oraz ekspertów zewnętrznych)
+* niedoszacowanie czasu i pracochłonności potrzebnych do osiągnięcia znaczących
+i trwałych korzyści z narzędzia (włączając w to potrzebę wykonania zmian w procesie
+testowym oraz ciągłe doskonalenie sposobu wykorzystania narzędzia)
+* niedoszacowanie pracochłonności utrzymania artefaktów testowych
+wygenerowanych przez narzędzie 
+zbytnie poleganie na narzędziu (zastąpienie narzędziem projektowania testów lub
+wykorzystywanie narzędzia, gdy testowanie ręczne byłoby lepsze)
+* niewykorzystywanie kontroli wersji testaliów w narzędziu
+* lekceważenie zależności i problemów z współpracą krytycznych narzędzi takich jak,
+narzędzia do zarządzania wymaganiami, narzędzia do kontroli wersji, narzędzia do
+zarządzania incydentami, narzędzia do śledzenia defektów oraz narzędzia od różnych
+dostawców
+* słaba reakcja dostawcy w ramach wsparcia, nowych wersji oraz poprawiania usterek
+* ryzyko wstrzymania projektu dla narzędzia darmowego / open-source
+* nieprzewidziane, takie jak niezdolność do wspierania nowej platformy
+
 ### 6.2.2 Kandydat pamięta specjalne uwarunkowania dla narzędzi wspierających wykonywanie testów, analizę statyczną oraz zarządzanie testami
+
+#### Narzędzia do wykonywania testów
+
+Narzędzia do wykonywania testów uruchamiają skrypty zaprojektowane tak, aby
+zaimplementować testy przechowywane elektronicznie. Ten typ narzędzi często wymaga
+wykonania znaczącej ilości pracy, zanim zostaną osiągnięte istotne korzyści. 
+
+#### Narzędzia do analizy statycznej
+
+Gdy narzędzia do analizy statycznej zostają użyte na kodzie źródłowym mogą wymusić
+stosowanie się do standardów kodowania, ale takie narzędzie zostanie użyte na kodzie już
+istniejącym może wygenerować dużą liczbę komunikatów. Ostrzeżenia nie powodują
+zatrzymania kompilacji kodu, ale powinny być zaadresowane, tak żeby utrzymanie kodu było
+w przyszłości łatwiejsze. Najwłaściwszym podejściem do wdrażania tych narzędzi jest
+wyłączenie niektórych komunikatów na początku, a następnie stopniowe ich włączanie.
+
+#### Narzędzia do zarządzania testami
+
+Narzędzia do zarządzania testami muszą się komunikować z innymi narzędziami lub
+arkuszami kalkulacyjnymi w celu dostarczenia użytecznej informacji w formacie, który
+najbardziej pasuje do potrzeb organizacji.
 
 ## 6.3 Wdrażanie narzędzi w organizacji
 
 ### 6.3.1 Kandydat potrafi wymienić główne zasady wprowadzania narzędzi do organizacji
 
+#### Główne aspekty do wzięcia pod uwagę podczas wyboru narzędzia dla organizacji to:
+
+* ocena dojrzałości organizacji, mocnych i słabych stron oraz identyfikacja możliwości
+doskonalenia procesu testowania wspieranego narzędziami
+* ocena według jasnych wymagań oraz obiektywnych kryteriów
+* wykonanie dowodu słuszności pomysłu (proof-of-concept) z użyciem narzędzia
+testowego, po to żeby zbadać, czy jest ono skuteczne dla danego testowanego
+oprogramowania w ramach istniejącej infrastruktury lub po to, żeby określić jakie
+zmiany w infrastrukturze są potrzebne do skutecznego użycia narzędzia
+* ocena dostawcy (włącznie ze szkoleniami, wsparciem oraz aspektami komercyjnymi)
+lub firm udzielających wsparcia w przypadku narzędzi niekomercyjnych
+* identyfikacja wymagań wewnętrznych na doradztwo i szkolenia w użyciu narzędzia
+* ocena potrzeb szkoleniowych z uwzględnieniem obecnych umiejętności
+automatyzacji testów przez zespół testowy
+* szacowanie stosunku korzyści do kosztów na podstawie konkretnego przypadku
+biznesowego
+
 ### 6.3.2 Kandydat potrafi wymienić cele dowodu słuszności pomysłu (proof-ofconcept) w ocenie narzędzia oraz cele fazy pilotażowej we wdrażaniu tego narzędzia
 
+#### Wdrażanie wybranego narzędzia w organizacji zaczyna się od projektu pilotażowego, który ma następujące cele
+
+* szczegółowe zapoznanie się z narzędziem
+* ocena czy i jak narzędzie pasuje do obowiązujących procesów i praktyk oraz
+ustalenie, co ewentualnie należałoby zmienić
+ustalenie standardów użycia, zarządzania, przechowywania oraz pielęgnacji narzędzia
+oraz artefaktów testowych (np. wypracowanie konwencji nazewnictwa plików
+i testów, stworzenie bibliotek oraz zdefiniowanie modularyzacji zestawów testów)
+* ocena, czy korzyści zostaną osiągnięte przy rozsądnych kosztach
+
 ### 6.3.3 Kandydat uznaje, że poza samym zakupem narzędzia potrzebne jest też dobre wsparcie w jego użyciu
+
+#### Czynnikami wpływającymi na sukces wdrożenia narzędzia w organizacji są
+
+* stopniowe wdrażanie narzędzia w pozostałej części organizacji
+* adaptacja i udoskonalenie procesu tak, aby pasował do sposobu używania narzędzia
+* zapewnienie szkoleń oraz doradztwa nowym użytkownikom
+* zdefiniowanie wytycznych co do użycia narzędzia
+* wdrożenie sposobu na zbieranie użytecznych informacji z wykorzystania narzędzia
+* monitorowanie wykorzystania narzędzia oraz osiąganych korzyści
+* zapewnienie wsparcia dla zespołu testowego w użyciu danego narzędzia
+* zbieranie wniosków z wykorzystania narzędzia przez wszystkie zespoły
