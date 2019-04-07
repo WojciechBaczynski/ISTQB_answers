@@ -1262,7 +1262,7 @@ narzędzia (włączając w to szkolenia oraz ekspertów zewnętrznych)
 i trwałych korzyści z narzędzia (włączając w to potrzebę wykonania zmian w procesie
 testowym oraz ciągłe doskonalenie sposobu wykorzystania narzędzia)
 * niedoszacowanie pracochłonności utrzymania artefaktów testowych
-wygenerowanych przez narzędzie 
+wygenerowanych przez narzędzie
 zbytnie poleganie na narzędziu (zastąpienie narzędziem projektowania testów lub
 wykorzystywanie narzędzia, gdy testowanie ręczne byłoby lepsze)
 * niewykorzystywanie kontroli wersji testaliów w narzędziu
@@ -1280,7 +1280,7 @@ dostawców
 
 Narzędzia do wykonywania testów uruchamiają skrypty zaprojektowane tak, aby
 zaimplementować testy przechowywane elektronicznie. Ten typ narzędzi często wymaga
-wykonania znaczącej ilości pracy, zanim zostaną osiągnięte istotne korzyści. 
+wykonania znaczącej ilości pracy, zanim zostaną osiągnięte istotne korzyści.
 
 #### Narzędzia do analizy statycznej
 
@@ -1301,7 +1301,7 @@ najbardziej pasuje do potrzeb organizacji.
 
 ### 6.3.1 Kandydat potrafi wymienić główne zasady wprowadzania narzędzi do organizacji
 
-#### Główne aspekty do wzięcia pod uwagę podczas wyboru narzędzia dla organizacji to:
+#### Główne aspekty do wzięcia pod uwagę podczas wyboru narzędzia dla organizacji to
 
 * ocena dojrzałości organizacji, mocnych i słabych stron oraz identyfikacja możliwości
 doskonalenia procesu testowania wspieranego narzędziami
