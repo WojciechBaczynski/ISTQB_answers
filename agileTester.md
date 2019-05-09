@@ -79,3 +79,64 @@ Testerzy są zaangażowani w planowanie iteracji będąc szczególnie uży
 - Szacowanie pracochłonności zadań testowych.
 - Identyfikowanie funkcjonalnych i niefunkcjonalnych własności systemu, które trzeba przetestować,
 - Wspieranie i udział w automatyzacji testów na różnych poziomach testowania.
+
+## 2.1 Różnice pomiędzy tradycyjnym i zwinnym podejściem do testowania
+
+### 2.1.1 Kandydat potrafi opisać różnice pomiędzy testowaniem w projektach zwinnych i tradycyjnych (nie zwinnych)
+
+Jedną z podstawowych różnic pomiędzy tradycyjnymi a zwinnymi cyklami życia jest idea bardzo krótkich iteracji, z których każda kończy się działającym oprogramowaniem dostarczającym interesariuszom biznesowym wartościowej funkcjonalności. Na początku projektu następuje okres planowania wydania. Następnie mamy ciąg iteracji. Na początku każdej iteracji występuje okres jej planowania. Po wypracowaniu zakresu iteracji, wybrane historyjki użytkownika są wytwarzane, integrowane z systemem oraz testowane. Tego typu iteracje są wysoce dynamiczne, z czynnościami wytwarzania, integracji i testowania trwającymi przez cały czas iteracji, z istotnym zrównolegleniem i zachodzeniem na siebie tych czynności. Czynności testowe wykonywane są przez cały czas (np. codziennie), a nie tylko jako końcowe czynności iteracji.
+
+### 2.1.2 Kandydat potrafi opisać, w jaki sposób czynności kodowania i testowania są zintegrowane w podejściu zwinnym
+
+Projekty zwinne często bardzo mocno wykorzystują narzędzia automatyzujące tworzenie, testowanie oraz zarządzanie tworzeniem oprogramowania. Deweloperzy wykorzystują narzędzia do analizy statycznej, testów jednostkowych i do mierzenia ich pokrycia. Programiści ciągle komitują kod i testy jednostkowe do systemów zarządzania konfiguracją przy użyciu struktur budowania i testowania. Takie struktury umożliwiają ciągłą integrację oprogramowania z systemem; analiza statyczna i testy jednostkowe są powtarzane, gdy tylko nowe oprogramowanie zostanie wprowadzane.
+
+### 2.1.3 Kandydat potrafi opisać rolę niezależnego testowania w projektach zwinnych
+
+Niezależni testerzy są często bardziej efektywni w znajdowaniu defektów. W niektórych zespołach zwinnych, deweloperzy wytwarzają większość testów w formie testów automatycznych. Jeden lub więcej testerów może być członkiem zespołu, wykonując wiele zadań testowych. Jednakże umieszczenie testera w zespole rodzi pewne ryzyko utraty jego niezależności i braku obiektywnej oceny.
+
+Inne zespoły zwinne utrzymują w pełni niezależny, wydzielony zespól testerski i angażują testerów „na żądanie” na końcu każdego sprintu. Taki proces pozwala na zachowanie niezależności, co sprawia, że testerzy mogą dokonywać obiektywnej, bezstronnej oceny oprogramowania. Jednakże brak czasu, brak zrozumienia nowych właściwości produktu oraz problemy w relacjach z interesariuszami biznesowymi i deweloperami mogą często powodować kłopoty przy takim podejściu.
+
+Trzecia opcja to posiadanie niezależnego, oddzielonego zespołu testowego, gdzie testerzy są przydzieleni do zespołu zwinnego na zasadzie długoterminowej na początku projektu, co umożliwia im utrzymanie niezależności z jednoczesnym poznaniem produktu i nawiązaniem mocnych relacji z innymi członkami zespołu. Dodatkowo, niezależny zespół testowy może utrzymywać kilku wyspecjalizowanych testerów (poza zespołem zwinnym) pracujących nad zadaniami długoterminowymi lub nienależącymi do sprintu, jak np. tworzenie narzędzi do automatycznego testowania, wykonywanie testów niefunkcjonalnych, tworzenie i utrzymywanie środowisk i danych testowych oraz zajmowanie się poziomami testów, które trudno wpasować w sprinty (np. testy integracji systemów).
+
+## 2.2 Status testowania w projektach zwinnych
+
+### 2.2.1 Kandydat potrafi opisać podstawowy zbiór produktów używanych do informowania o statusie testów w projekcie zwinnym, włączając w to postęp testów i jakość produktu
+
+By zapewnić stałe, szczegółowe wizualne przedstawienie aktualnego statusu całego zespołu, włączając w to status testów, zespoły mogą wykorzystywać zwinną tablicę zadań (ang. Agile task board). Karty historyjek, zadania deweloperskie, zadania testowe i inne zadania powstałe podczas planowania iteracji (patrz sekcja 1.2.5) są prezentowane na tablicy zadań, często przy pomocy kolorowych kart, gdzie kolor określa typ zadania. Podczas iteracji, zarządzanie postępem prac odbywa się poprzez przesuwanie odpowiednich kart zadań na tablicy miedzy kolumnami takimi jak: „do zrobienia”, „w toku”, „weryfikacja” oraz „zrobione”. Zespoły zwinne mogą używać narzędzi do obsługi kart historyjek oraz tablicy zadań, które to narzędzia mogą automatyzować uaktualnianie tablicy rozdzielczej i statusu.
+
+### 2.2.2 Kandydat potrafi opisać proces ewoluowania testów w czasie wielu iteracji i potrafi wyjaśnić, dlaczego automatyzacja testów jest istotna przy zarządzaniu ryzykiem regresji w projektach zwinnych
+
+W projektach zwinnych, produkt rośnie po zakończeniu każdej iteracji. Tym samym zwiększa się zakres testów. Wraz z testami zmian kodu dokonanych w czasie bieżącej iteracji, testerzy sprawdzają także, czy nie obniżono jakości właściwości, które były wytworzone iprzetestowane w poprzednich iteracjach. Ryzyko regresu właściwości jest wysokie w wytwarzaniu zwinnym, ze względu na rozległe zmiany w kodzie (dodawanie, modyfikowanie i usuwanie linii kodu z wersji na wersję). Ponieważ reagowanie na zmiany jest podstawową zasadą zwinności, dlatego też, w celu zaspokojenia potrzeby biznesowej, zmianom mogą podlegać uprzednio dostarczone właściwości. By utrzymać prędkość wytwarzania bez zaciągania dużego długu technicznego, krytyczna staje się jak najwcześniejsza inwestycja zespołu w automatyzację testów na wszystkich poziomach testów. Krytyczne jest także, by wszystkie produkty testowe takie jak: testy automatyczne, manualne przypadki testowe, dane testowe i inne artefakty testowe były aktualizowane w każdej iteracji. Dlatego też zaleca się, by wszystkie produkty testowe były zarządzane przy użyciu narzędzia do zarządzania konfiguracją. Zapewnia to kontrolę wersji, ułatwia dostęp wszystkim członkom zespołu, ułatwia zmiany wymagane przez zmieniającą się funkcjonalność, a równocześnie ciągle zachowuje historyczne informacje o produktach testowych.
+
+## 2.3 Rola i umiejętności testera w zespole zwinnym
+
+### 2.3.1 Kandydat rozumie umiejętności (ludzkie, dziedzinowe i testowe) testera w projekcie zwinnym
+
+Testerzy w zespołach zwinnych powinni:
+
+- Być pozytywni i zorientowani na rozwiązywanie problemów we współpracy z członkami zespołu i interesariuszami,
+- Wykazywać krytyczne, zorientowane na jakość, sceptyczne myślenie o produkcie,
+- Aktywnie zdobywać informacje od interesariuszy (nie polegać wyłącznie na spisanej specyfikacji),
+- Dokładnie sprawdzać i raportować wyniki testów, postęp testów i jakość produktu,
+- Skutecznie pracować z przedstawicielami klienta i interesariuszami definiując
+  testowalne historyjki użytkownika (przede wszystkim kryteria akceptacyjne),
+- Współpracować w zespole, pracując w parach z programistami lub innymi członkami
+  zespołu,
+- Szybko reagować na zmiany, przez np. zmienianie, dodawanie i poprawianie
+  przypadków testowych,
+- Planować i organizować swoją własną pracę.
+
+### 2.3.2 Kandydat rozumie rolę testera w projekcie zwinnym
+
+Rola testera w zespole zwinnym obejmuje czynności, które generują i dostarczają informacje zwrotne dotyczące nie tylko statusu testów i jakości produktu, ale także jakości procesu. Poza czynnościami opisanymi w innych miejscach tego sylabusa, czynności te obejmują:
+
+- Zrozumienie, implementowanie i poprawianie strategii testów,
+- Mierzenie i raportowanie pokrycia testowego względem wszystkich dostępnych wymiarów pokrycia,
+- Zapewnienie poprawnego użycia narzędzi testowych.
+- Konfigurowanie, używanie i zarządzanie środowiskiem testowym i danymi testowymi,
+- Raportowanie defektów i współpraca z zespołem przy ich rozwiazywaniu,
+- Trenowanie (coaching) innych członków zespołu w różnych aspektach związanych z testowaniem.
+- Zapewnienie, że odpowiednie zadania testowe są harmonogramowane podczas planowania wydania i iteracji,
+- Aktywna współpraca z deweloperami, interesariuszami biznesowymi i właścicielami produktu, by poprawnie interpretować wymagania, zwłaszcza w zakresie ich
+  testowalności, spójności i kompletności,
+- Proaktywne uczestnictwo w retrospektywach zespołu, sugerowanie i implementowanie udoskonaleń.
