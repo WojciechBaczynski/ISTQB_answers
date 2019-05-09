@@ -1,4 +1,4 @@
-# Testowanie  poziom podstawowy ISTQB by Wojciech Baczyński
+# Testowanie poziom podstawowy ISTQB by Wojciech Baczyński
 
 ## 1.1 Dlaczego testowanie jest niezbędne
 
@@ -28,10 +28,10 @@ Człowiek może popełnić błąd (pomyłkę), która powoduje powstanie defektu
 
 #### Istnieją różne cele testowania
 
-* znajdowanie usterek
-* nabieranie zaufania do poziomu jakości
-* dostarczanie informacji potrzebnych do podejmowania decyzji
-* zapobieganie defektom
+- znajdowanie usterek
+- nabieranie zaufania do poziomu jakości
+- dostarczanie informacji potrzebnych do podejmowania decyzji
+- zapobieganie defektom
 
 ### 1.2.2 Kandydat potrafi podać przykłady celów testowania w różnych fazach cyklu życia oprogramowania
 
@@ -59,16 +59,16 @@ Debagowanie różni się od testowania. Testowanie dynamiczne może pokazać awa
 
 #### Podstawowy proces testowy składa się z następujących czynności
 
-* planowanie i nadzór nad testami
-Planowanie testów polega na zdefiniowaniu celów testowania i określeniu czynności testowych potrzebnych do wypełnienia misji i celów testowania.
-* analiza i projektowanie testów
-Podczas analizy i projektowania testów ogólne cele testowania przekształcane są w konkretne warunki testowe i przypadki testowe.
-* implementacja i wykonanie testów
-Implementacja i wykonanie testów, to czynność, podczas której specyfikowane są procedury i skrypty testowe przez ustawienie przypadków testowych w konkretnej kolejności oraz dołączenie innych informacji potrzebnych do wykonania testów, konfigurowane jest środowisko testowe oraz wykonywane są testy.  
-* ocena kryteriów zakończenia i raportowanie
-Ocena spełnienia kryteriów zakończenia polega na ocenie wykonania testów zgodnie z przyjętymi celami testowania. Powinna ona być wykonywana dla każdego poziomu testowania.
-* czynności zamykające test
-W ramach czynności zamykających testy zbierane są dane z zakończonych czynności testowych, żeby utrwalić doświadczenie, testalia, fakty i liczby. Czynności zamykające testy wykonywane są przy kamieniach milowych projektu takich jak: wydanie systemu, zakończenie (lub anulowanie) projektu testowego, osiągnięcie kamienia milowego, lub zakończenie wydania serwisowego.
+- planowanie i nadzór nad testami
+  Planowanie testów polega na zdefiniowaniu celów testowania i określeniu czynności testowych potrzebnych do wypełnienia misji i celów testowania.
+- analiza i projektowanie testów
+  Podczas analizy i projektowania testów ogólne cele testowania przekształcane są w konkretne warunki testowe i przypadki testowe.
+- implementacja i wykonanie testów
+  Implementacja i wykonanie testów, to czynność, podczas której specyfikowane są procedury i skrypty testowe przez ustawienie przypadków testowych w konkretnej kolejności oraz dołączenie innych informacji potrzebnych do wykonania testów, konfigurowane jest środowisko testowe oraz wykonywane są testy.
+- ocena kryteriów zakończenia i raportowanie
+  Ocena spełnienia kryteriów zakończenia polega na ocenie wykonania testów zgodnie z przyjętymi celami testowania. Powinna ona być wykonywana dla każdego poziomu testowania.
+- czynności zamykające test
+  W ramach czynności zamykających testy zbierane są dane z zakończonych czynności testowych, żeby utrwalić doświadczenie, testalia, fakty i liczby. Czynności zamykające testy wykonywane są przy kamieniach milowych projektu takich jak: wydanie systemu, zakończenie (lub anulowanie) projektu testowego, osiągnięcie kamienia milowego, lub zakończenie wydania serwisowego.
 
 ## 1.5 Psychologia testowania
 
@@ -80,14 +80,14 @@ Problemy z komunikacją mogą wystąpić jeżeli testerzy są postrzegani jedyni
 przynoszący niechciane informacje o usterkach. Istnieje kilka sposobów na poprawienie
 komunikacji i relacji pomiędzy testerami i resztą zespołu:
 
-* zacznij od współpracy, a nie od wojny - przypomnij wszystkim, że celem jest
-wyprodukowanie systemów o lepszej jakości
-* komunikuj informacje na temat produktu w sposób neutralny, skoncentrowany na
-faktach bez krytykowania autora produktu, na przykład pisz obiektywne i konkretne
-raporty incydentów oraz uwagi z przeglądów
-* spróbuj zrozumieć, co druga osoba czuje i dlaczego reaguje tak jak reaguje
-* upewnij się, że druga strona zrozumiała, co powiedziałeś i upewnij się, że rozumiesz
-uwagi drugiej strony
+- zacznij od współpracy, a nie od wojny - przypomnij wszystkim, że celem jest
+  wyprodukowanie systemów o lepszej jakości
+- komunikuj informacje na temat produktu w sposób neutralny, skoncentrowany na
+  faktach bez krytykowania autora produktu, na przykład pisz obiektywne i konkretne
+  raporty incydentów oraz uwagi z przeglądów
+- spróbuj zrozumieć, co druga osoba czuje i dlaczego reaguje tak jak reaguje
+- upewnij się, że druga strona zrozumiała, co powiedziałeś i upewnij się, że rozumiesz
+  uwagi drugiej strony
 
 ### 1.5.1 Kandydat pamięta czynniki psychologiczne, od których zależy sukces testowania
 
@@ -110,12 +110,12 @@ być wykonywane na dowolnym poziomie testów.
 
 #### Cztery poziomy testowania to
 
-* testy modułowe (jednostkowe)
-* testy integracyjne
-* testy systemowe
-* testy akceptacyjne
+- testy modułowe (jednostkowe)
+- testy integracyjne
+- testy systemowe
+- testy akceptacyjne
 
- Produkty związane z wytwarzaniem oprogramowania (takie jak scenariusze biznesowe lub
+Produkty związane z wytwarzaniem oprogramowania (takie jak scenariusze biznesowe lub
 przypadki użycia, wymagania, projekt i kod źródłowy) są często podstawą do testowania na
 jednym lub wielu poziomach.
 
@@ -124,39 +124,39 @@ jednym lub wielu poziomach.
 Iteracyjno-przyrostowe wytwarzanie oprogramowania to proces zbierania wymagań,
 projektowania, budowania oraz testowania systemu zorganizowany w krótsze cykle
 rozwojowe. System wyprodukowany według takiego modelu może być przetestowany
-na kilku poziomach w każdej iteracji.  Każdy przyrost
+na kilku poziomach w każdej iteracji. Każdy przyrost
 może podlegać zarówno weryfikacji jak i walidacji.
 
 ### 2.1.3 Kandydat pamięta atrybuty dobrego testowania mające zastosowanie w każdym z modeli życia oprogramowania
 
 #### W każdym modelu rozwoju oprogramowania dobre testowanie posiada kilka niezmiennych cech
 
-* dla każdej czynności związanej z wytworzeniem oprogramowania istnieją
-odpowiadające jej czynności związane z testowaniem
-* każdy poziom testowania ma zdefiniowane cele
-* analiza i projektowanie testów dla danego poziomu powinny rozpoczynać się już
-podczas odpowiadającej im fazy wytwarzania
-* testerzy powinni uczestniczyć w przeglądach już od wczesnych wersji dokumentacji
-tworzonej podczas wytwarzania
+- dla każdej czynności związanej z wytworzeniem oprogramowania istnieją
+  odpowiadające jej czynności związane z testowaniem
+- każdy poziom testowania ma zdefiniowane cele
+- analiza i projektowanie testów dla danego poziomu powinny rozpoczynać się już
+  podczas odpowiadającej im fazy wytwarzania
+- testerzy powinni uczestniczyć w przeglądach już od wczesnych wersji dokumentacji
+  tworzonej podczas wytwarzania
 
-## 2.2 Poziomy testów  
+## 2.2 Poziomy testów
 
 ### 2.2.1 Kandydat potrafi porównać różne poziomy testów: główne cele, typowe przedmioty testów, typowe cele testowania (np. strukturalne lub funkcjonalne) i związane z nimi produkty, testerów, typy usterek i awarii do znalezienia
 
 #### Testy modułowe
 
-##### Podstawa   testów
+##### Podstawa testów
 
-* wymagania na moduły
-* projekt szczegółowy
-* kod
+- wymagania na moduły
+- projekt szczegółowy
+- kod
 
-##### Typowe   obiekty   testów
+##### Typowe obiekty testów
 
-* moduły
-* programy
-* programy do konwersji lub migracji danych
-* moduły bazodanowe
+- moduły
+- programy
+- programy do konwersji lub migracji danych
+- moduły bazodanowe
 
 Testy modułowe polegają na wyszukiwaniu błędów i weryfikacji funkcjonalności
 oprogramowania (np. modułów, programów, obiektów, klas), które można testować
@@ -166,19 +166,19 @@ sterowników testowych oraz symulatorów.
 
 #### Testy integracyjne
 
-##### Podstawa  testów
+##### Podstawa testów
 
-* projekt oprogramowania i systemu
-* architektura
-* przepływy procesów
-* przypadki użycia
+- projekt oprogramowania i systemu
+- architektura
+- przepływy procesów
+- przypadki użycia
 
-##### Typowe  obiekty testów
+##### Typowe obiekty testów
 
-* implementacja baz danych podsystemów
-* infrastruktura
-* interfejsy
-* konfiguracja systemu i dane konfiguracyjne
+- implementacja baz danych podsystemów
+- infrastruktura
+- interfejsy
+- konfiguracja systemu i dane konfiguracyjne
 
 Testy integracyjne sprawdzają interfejsy pomiędzy modułami, interakcje z innymi częściami
 systemu (takimi jak system operacyjny, system plików i sprzęt) oraz interfejsy pomiędzy
@@ -188,42 +188,42 @@ systemami.
 
 ##### Podstawa testów
 
-* wymagania na system i oprogramowanie
-* przypadki użycia
-* specyfikacja funkcjonalna
-* raporty z analizy ryzyka
+- wymagania na system i oprogramowanie
+- przypadki użycia
+- specyfikacja funkcjonalna
+- raporty z analizy ryzyka
 
 ##### Typowe obiekty testów
 
-* podręczniki systemowe, użytkownika i operacyjne
-* konfiguracje systemu i dane konfiguracyjne
+- podręczniki systemowe, użytkownika i operacyjne
+- konfiguracje systemu i dane konfiguracyjne
 
 Testy systemowe zajmują się zachowaniem systemu/produktu. Zakres testów powinien być
 jasno określony w głównym planie testów oraz w planach testów poszczególnych poziomów.
 
 #### Testy akceptacyjne
 
-##### Podstawa    testów
+##### Podstawa testów
 
-* wymagania użytkownika
-* wymagania systemowe
-* przypadki użycia
-* procesy biznesowe
-* raporty z analizy ryzyka
+- wymagania użytkownika
+- wymagania systemowe
+- przypadki użycia
+- procesy biznesowe
+- raporty z analizy ryzyka
 
-##### Typowe obiekty  testów
+##### Typowe obiekty testów
 
-* proces biznesowy na systemie w pełni zintegrowanym
-* procesy utrzymania i obsługi
-* procedury pracy użytkowników
-* formularze
-* raporty
-* dane konfiguracyjne
+- proces biznesowy na systemie w pełni zintegrowanym
+- procesy utrzymania i obsługi
+- procedury pracy użytkowników
+- formularze
+- raporty
+- dane konfiguracyjne
 
 Odpowiedzialność za testy akceptacyjne leży często po stronie klientów lub użytkowników
 systemu. Mogą w nie być zaangażowani również inni interesariusze.
 
-## 2.3 Typy testów  
+## 2.3 Typy testów
 
 ### 2.3.1 Kandydat potrafi porównać podając przykłady cztery typy testów (funkcjonalne, niefunkcjonalne, strukturalne oraz związane ze zmianami)
 
@@ -282,7 +282,7 @@ domniemanych przez testerów) oraz ich współdziałania z innymi systemami. Mo�
 wykonywać na wszystkich poziomach (np. testy modułowe mogą bazować na specyfikacji
 modułów). Testy strukturalne (białoskrzynkowe) można wykonywać na każdym poziomie testowania.
 Technik strukturalnych najlepiej użyć po technikach opartych na specyfikacji, po to by
-zmierzyć dokładność testowania przez ocenę stopnia pokrycia wybranego typu struktury.  
+zmierzyć dokładność testowania przez ocenę stopnia pokrycia wybranego typu struktury.
 
 ### 2.3.3 Kandydat potrafi wymienić i opisać różne typy testów niefunkcjonalnych bazujących na wymaganiach niefunkcjonalnych
 
@@ -303,7 +303,7 @@ ten sposób zwiększyć pokrycie. Techniki oparte na pokryciu opisane są w rozd
 Do pomiaru pokrycia (na przykład decyzji lub instrukcji) na wszystkich poziomach, ale
 szczególnie na poziomie testów modułowych i poziomie testów integracji modułów, mogą
 zostać użyte narzędzia. Testowanie strukturalne może zostać oparte na architekturze
-systemu, na przykład hierarchii wywołań.  
+systemu, na przykład hierarchii wywołań.
 
 ### 2.3.5 Kandydat potrafi opisać cel wykonywania testów potwierdzających i regresywnych
 
@@ -320,7 +320,7 @@ działało poprawnie.
 Testy, które mają być stosowane w testowaniu potwierdzającym i regresywnym muszą być
 powtarzalne.
 
-## 2.4 Testowanie pielęgnacyjne  
+## 2.4 Testowanie pielęgnacyjne
 
 ### 2.4.1 Kandydat potrafi porównać testy pielęgnacyjne (testowanie istniejącego systemu) do testowania nowej aplikacji uwzględniając typy testów, powody rozpoczęcia testowania oraz ilość testów
 
@@ -391,42 +391,42 @@ uruchamiania kodu.
 
 1. planowanie
 
-    * definiowanie kryteriów przeglądu
-    * wybór uczestników przeglądu
-    * przydział ról
-    * ustalenie kryteriów wejścia i zakończenia dla bardziej formalnych typów
-    przeglądów (np. dla inspekcji)
-    * wybór fragmentów dokumentu do przejrzenia
+   - definiowanie kryteriów przeglądu
+   - wybór uczestników przeglądu
+   - przydział ról
+   - ustalenie kryteriów wejścia i zakończenia dla bardziej formalnych typów
+     przeglądów (np. dla inspekcji)
+   - wybór fragmentów dokumentu do przejrzenia
 
 2. rozpoczęcie
 
-    * rozesłanie dokumentów
-    * opisanie celów przeglądu, procesu i dokumentów uczestnikom przeglądu
-    * sprawdzenie kryteriów wejścia (dla bardziej formalnych typów przeglądów)
+   - rozesłanie dokumentów
+   - opisanie celów przeglądu, procesu i dokumentów uczestnikom przeglądu
+   - sprawdzenie kryteriów wejścia (dla bardziej formalnych typów przeglądów)
 
 3. przygotowanie indywidualne
 
-    * przygotowanie przed spotkaniem przeglądowym przez przejrzenie
-    dokumentów
-    * zapisywanie potencjalnych defektów, pytań i komentarzy
+   - przygotowanie przed spotkaniem przeglądowym przez przejrzenie
+     dokumentów
+   - zapisywanie potencjalnych defektów, pytań i komentarzy
 
 4. kontrola/ocena/zapisanie wyników (spotkanie przeglądowe)
 
-    * dyskusja lub spisywanie, z udokumentowaniem wyników i sporządzeniem
-    protokołu (dla bardziej formalnych typów przeglądów)
-    * zapisywanie defektów i rekomendacji dotyczących ich poprawiania,
-    podejmowanie decyzji co do defektów
+   - dyskusja lub spisywanie, z udokumentowaniem wyników i sporządzeniem
+     protokołu (dla bardziej formalnych typów przeglądów)
+   - zapisywanie defektów i rekomendacji dotyczących ich poprawiania,
+     podejmowanie decyzji co do defektów
 
 5. poprawki
 
-    * naprawianie znalezionych defektów, zwykle wykonywane przez autora
-    * uaktualnianie statusów defektów (w przeglądach formalnych)
+   - naprawianie znalezionych defektów, zwykle wykonywane przez autora
+   - uaktualnianie statusów defektów (w przeglądach formalnych)
 
 6. zakończenie
 
-    * sprawdzenie, że usterki zostały obsłużone
-    * zbieranie metryk
-    * sprawdzanie kryteriów zakończenia (dla bardziej formalnych typów przeglądów)
+   - sprawdzenie, że usterki zostały obsłużone
+   - zbieranie metryk
+   - sprawdzanie kryteriów zakończenia (dla bardziej formalnych typów przeglądów)
 
 ### 3.2.2 Kandydat potrafi wyjaśnić różnice pomiędzy różnymi typami przeglądów: przeglądem nieformalnym, przeglądem technicznym, przejrzeniem i inspekcją
 
@@ -434,55 +434,55 @@ Głównymi cechami, opcjami i celami powszechnie stosowanych typów przeglądów
 
 #### Przegląd nieformalny
 
-* brak formalnego procesu
-* może przybrać formę programowania w parach oraz przegląd projektu lub kodu przez
-kierownika zespołu
-* może być udokumentowany
-* jego użyteczność może być różna w zależności od przeglądających
-* główny cel: tani sposób na osiągnięcie niewielkich korzyści
+- brak formalnego procesu
+- może przybrać formę programowania w parach oraz przegląd projektu lub kodu przez
+  kierownika zespołu
+- może być udokumentowany
+- jego użyteczność może być różna w zależności od przeglądających
+- główny cel: tani sposób na osiągnięcie niewielkich korzyści
 
 #### Przejrzenie
 
-* spotkanie jest prowadzone przez autora
-* może przybrać formę scenariuszy, uruchamiania "na sucho", grupa kolegów
-* sesje nie ograniczone czasowo
-o opcjonalnie przygotowanie przeglądających przed spotkaniem
-o opcjonalnie raport z przeglądu, lista uwag
-* opcjonalnie protokólant (którym nie jest autor)
-* w praktyce może być od całkiem nieformalnego do bardzo formalnego
-* główne cele: uczenie się, zrozumienie, znajdowanie usterek
+- spotkanie jest prowadzone przez autora
+- może przybrać formę scenariuszy, uruchamiania "na sucho", grupa kolegów
+- sesje nie ograniczone czasowo
+  o opcjonalnie przygotowanie przeglądających przed spotkaniem
+  o opcjonalnie raport z przeglądu, lista uwag
+- opcjonalnie protokólant (którym nie jest autor)
+- w praktyce może być od całkiem nieformalnego do bardzo formalnego
+- główne cele: uczenie się, zrozumienie, znajdowanie usterek
 
 #### Przegląd techniczny
 
-* posiada zdefiniowany proces wykrywania defektów między innymi przez kolegów i ekspertów
-technicznych z opcjonalnym udziałem kierownictwa
-* może być organizowany jako przegląd koleżeński bez udziału kierownictwa
-* w idealnej sytuacji prowadzony przez przeszkolonego moderatora (nie autora)
-* przygotowanie przeglądających przed spotkaniem
-* opcjonalnie z wykorzystaniem list kontrolnych
-* przygotowanie raportu z przeglądu, który zawiera listę uwag, ocenę czy produkt
-programistyczny spełnia wymagania i, tam gdzie jest to potrzebne, rekomendacje
-związane z uwagami
-* w praktyce może być wykonywany w sposób od całkiem nieformalnego do bardzo
-formalnego
-* główne cele: przedyskutowanie, podjęcie decyzji, ocena alternatyw, wyszukanie
-usterek, rozwiązanie problemów technicznych oraz sprawdzenie zgodności ze
-specyfikacją i standardami
+- posiada zdefiniowany proces wykrywania defektów między innymi przez kolegów i ekspertów
+  technicznych z opcjonalnym udziałem kierownictwa
+- może być organizowany jako przegląd koleżeński bez udziału kierownictwa
+- w idealnej sytuacji prowadzony przez przeszkolonego moderatora (nie autora)
+- przygotowanie przeglądających przed spotkaniem
+- opcjonalnie z wykorzystaniem list kontrolnych
+- przygotowanie raportu z przeglądu, który zawiera listę uwag, ocenę czy produkt
+  programistyczny spełnia wymagania i, tam gdzie jest to potrzebne, rekomendacje
+  związane z uwagami
+- w praktyce może być wykonywany w sposób od całkiem nieformalnego do bardzo
+  formalnego
+- główne cele: przedyskutowanie, podjęcie decyzji, ocena alternatyw, wyszukanie
+  usterek, rozwiązanie problemów technicznych oraz sprawdzenie zgodności ze
+  specyfikacją i standardami
 
 #### Inspekcja
 
-* prowadzona przez przeszkolonego moderatora (nie autora)
-* zwykle sprawdzenie przez kolegów
-* posiada zdefiniowane role
-* posiada metryki
-* posiada formalny proces oparty na regułach i listach kontrolnych
-* posiada zdefiniowane kryteria wejścia i zakończenia
-* przygotowanie przed spotkaniem przeglądowym
-* raport z inspekcji zawierający listę uwag
-* formalny proces kontroli wykonania napraw
-o opcjonalnie elementy doskonalenia procesów
-* opcjonalnie wykorzystanie czytającego
-* główny cel: wyszukanie usterek
+- prowadzona przez przeszkolonego moderatora (nie autora)
+- zwykle sprawdzenie przez kolegów
+- posiada zdefiniowane role
+- posiada metryki
+- posiada formalny proces oparty na regułach i listach kontrolnych
+- posiada zdefiniowane kryteria wejścia i zakończenia
+- przygotowanie przed spotkaniem przeglądowym
+- raport z inspekcji zawierający listę uwag
+- formalny proces kontroli wykonania napraw
+  o opcjonalnie elementy doskonalenia procesów
+- opcjonalnie wykorzystanie czytającego
+- główny cel: wyszukanie usterek
 
 Przejrzenia, przeglądy techniczne oraz inspekcje można wykonywać w grupie osób równych
 rangą - kolegów z tego samego szczebla organizacji. Taki przegląd nazywa się przeglądem
@@ -492,24 +492,24 @@ koleżeńskim.
 
 #### Następujące czynniki wpływają na sukces przeglądów
 
-* każdy przegląd ma jasno zdefiniowany cel
-* w przegląd zaangażowani są ludzie odpowiedni do jego celu
-* testerzy są wartościowymi przeglądającymi, którzy przyczyniają się do sukcesu
-przeglądu oraz poznają produkt, co pozwala im przygotować testy wcześniej
-* znalezione usterki są przyjmowane pozytywnie i wyrażane w sposób obiektywny
-* rozwiązuje się problemy personalne i psychologiczne (np. jest to pozytywnym
-doświadczeniem dla autora)
-* przegląd jest prowadzony w atmosferze zaufania; wyniki przeglądu nie zostają użyte
-do oceny uczestników przeglądu
-* stosuje się techniki przeglądania adekwatne do celów przeglądu, do typu i poziomu
-produktu oraz przeglądających
-* jeżeli jest to potrzebne, zostają użyte listy kontrolne lub role do podniesienia
-skuteczności znajdowania usterek
-* organizuje się szkolenia, szczególnie z bardziej formalnych technik takich jak
-inspekcja
-* kierownictwo wspiera dobry proces przeglądu (np. przez przeznaczenie odpowiedniej
-ilości czasu w harmonogramach na zadania związane z przeglądem)
-* kładzie się nacisk na uczenie się oraz doskonalenie procesów
+- każdy przegląd ma jasno zdefiniowany cel
+- w przegląd zaangażowani są ludzie odpowiedni do jego celu
+- testerzy są wartościowymi przeglądającymi, którzy przyczyniają się do sukcesu
+  przeglądu oraz poznają produkt, co pozwala im przygotować testy wcześniej
+- znalezione usterki są przyjmowane pozytywnie i wyrażane w sposób obiektywny
+- rozwiązuje się problemy personalne i psychologiczne (np. jest to pozytywnym
+  doświadczeniem dla autora)
+- przegląd jest prowadzony w atmosferze zaufania; wyniki przeglądu nie zostają użyte
+  do oceny uczestników przeglądu
+- stosuje się techniki przeglądania adekwatne do celów przeglądu, do typu i poziomu
+  produktu oraz przeglądających
+- jeżeli jest to potrzebne, zostają użyte listy kontrolne lub role do podniesienia
+  skuteczności znajdowania usterek
+- organizuje się szkolenia, szczególnie z bardziej formalnych technik takich jak
+  inspekcja
+- kierownictwo wspiera dobry proces przeglądu (np. przez przeznaczenie odpowiedniej
+  ilości czasu w harmonogramach na zadania związane z przeglądem)
+- kładzie się nacisk na uczenie się oraz doskonalenie procesów
 
 ## 3.3 Analiza statyczna przy pomocy narzędzi
 
@@ -527,28 +527,28 @@ przepływ danych) jak również wygenerowane wyjście w postaci HTMLa lub XMLa.
 
 #### O wartości analizy statycznej stanowią następujące jej cechy
 
-* wczesne wykrywanie usterek, jeszcze przed wykonaniem testów
-wczesne wykrywanie podejrzanych aspektów kodu lub projektu przez wyliczenie
-miar, takich jak wysoki stopień złożoności
-* identyfikacja defektów trudnych do wykrycia przez testowanie
-* wykrywanie zależności i niespójności w modelach oprogramowania
-* zwiększenie pielęgnowalności kodu i projektu
-* zapobieganie defektom, jeżeli zastosowane zostają wnioski z analizy procesu rozwoju
-oprogramowania
+- wczesne wykrywanie usterek, jeszcze przed wykonaniem testów
+  wczesne wykrywanie podejrzanych aspektów kodu lub projektu przez wyliczenie
+  miar, takich jak wysoki stopień złożoności
+- identyfikacja defektów trudnych do wykrycia przez testowanie
+- wykrywanie zależności i niespójności w modelach oprogramowania
+- zwiększenie pielęgnowalności kodu i projektu
+- zapobieganie defektom, jeżeli zastosowane zostają wnioski z analizy procesu rozwoju
+  oprogramowania
 
 ### 3.3.3 Kandydat potrafi wymienić typowe defekty kodu i projektu, które mogą zostać wykryte przez narzędzia do analizy statycznej
 
 #### Analiza statyczna zwykle wykrywa następujące typy usterek
 
-* odwołanie do niezainicjalizowanej zmiennej
-* niespójne interfejsy pomiędzy modułami
-* niewykorzystywane lub niepoprawnie zadeklarowane zmienne
-* martwy kod
-* brakująca albo błędna logika (pętle potencjalnie nieskończone)
-* zbyt skomplikowane konstrukcje
-* naruszenie standardów kodowania
-* słabe punkty zabezpieczeń
-* naruszenie reguł składni kodu i modeli oprogramowania
+- odwołanie do niezainicjalizowanej zmiennej
+- niespójne interfejsy pomiędzy modułami
+- niewykorzystywane lub niepoprawnie zadeklarowane zmienne
+- martwy kod
+- brakująca albo błędna logika (pętle potencjalnie nieskończone)
+- zbyt skomplikowane konstrukcje
+- naruszenie standardów kodowania
+- słabe punkty zabezpieczeń
+- naruszenie reguł składni kodu i modeli oprogramowania
 
 ## 4.1 Proces rozwoju testów
 
@@ -604,26 +604,26 @@ na specyfikacji nazywane są technikami czarnoskrzynkowymi, a techniki oparte na
 
 #### Cechy wspólne technik projektowania testów opartych na specyfikacji, to między innymi
 
-* w specyfikacji problemu do rozwiązania, oprogramowania lub jego komponentów
-używane są modele
-* z tych modeli można, w sposób usystematyzowany, wywodzić przypadki testowe
-Cechy wspólne technik projektowania testów opartych na strukturze, to m.in.:
-* do tworzenia przypadków testowych wykorzystywana jest wiedza o tym jak
-oprogramowanie jest skonstruowane, np. kod źródłowy lub szczegółowy projekt
-* można mierzyć stopień pokrycia istniejących przypadków testowych, można też
-w sposób usystematyzowany tworzyć nowe przypadki testowe w celu zwiększenia
-pokrycia
-Cechy wspólne technik projektowania testów opartych na doświadczeniu, to m.in.:
-* do tworzenia przypadków testowych wykorzystywane jest doświadczenie ludzi
-  * wiedza testerów, programistów,        użytkowników oraz innych interesariuszy o
+- w specyfikacji problemu do rozwiązania, oprogramowania lub jego komponentów
+  używane są modele
+- z tych modeli można, w sposób usystematyzowany, wywodzić przypadki testowe
+  Cechy wspólne technik projektowania testów opartych na strukturze, to m.in.:
+- do tworzenia przypadków testowych wykorzystywana jest wiedza o tym jak
+  oprogramowanie jest skonstruowane, np. kod źródłowy lub szczegółowy projekt
+- można mierzyć stopień pokrycia istniejących przypadków testowych, można też
+  w sposób usystematyzowany tworzyć nowe przypadki testowe w celu zwiększenia
+  pokrycia
+  Cechy wspólne technik projektowania testów opartych na doświadczeniu, to m.in.:
+- do tworzenia przypadków testowych wykorzystywane jest doświadczenie ludzi
+  - wiedza testerów, programistów, użytkowników oraz innych interesariuszy o
     oprogramowaniu, jego środowisku i sposobie użytkowania
-  * wiedza o prawdopodobnych defektach i ich położeniu
+  - wiedza o prawdopodobnych defektach i ich położeniu
 
 ## 4.3 Techniki oparte na specyfikacji lub czarnoskrzynkowe
 
 ### 4.3.1 Kandydat potrafi napisać przypadki testowe na podstawie podanych modeli oprogramowania używając techniki klas równoważności, analizy wartości brzegowych, testowania w oparciu o tablicę decyzyjną, testowania przejść pomiędzy stanami
 
-#### Podział na klasy  równoważności
+#### Podział na klasy równoważności
 
 W technice podziału na klasy równoważności wejścia programu lub systemu są dzielone na
 grupy, które powodują podobne zachowanie oprogramowania, więc wysoce
@@ -635,7 +635,7 @@ lub po zajściu jakiegoś zdarzenia) oraz parametrów interfejsów (np. komponen
 integrowanych i testowanych podczas testów integracyjnych). Testy można tak zaprojektować, żeby pokrywały akceptowalne i nieakceptowalne klasy równoważności.
 Podział na klasy równoważności można zastosować na każdym poziomie testowania.
 
-#### Analiza wartości  brzegowych
+#### Analiza wartości brzegowych
 
 Istnieje większe prawdopodobieństwo, że oprogramowanie będzie się błędnie zachowywać
 dla wartości na krawędziach klas równoważności niż w ich środku, więc testowanie tych
@@ -646,7 +646,7 @@ niepoprawną wartością brzegową. Testy można zaprojektować tak, żeby pokry
 poprawne jak i niepoprawne wartości brzegowe. Podczas projektowania testów tworzy się
 przypadek testowy dla każdej wartości brzegowej
 
-#### Testowanie w oparciu o tablicę  decyzyjną
+#### Testowanie w oparciu o tablicę decyzyjną
 
 Tabele decyzyjne są dobrym sposobem na uchwycenie tych wymagań na system, które
 zawierają zależności logiczne, oraz na udokumentowanie wewnętrznej budowy systemu.
@@ -662,7 +662,7 @@ Standardowe pokrycie stosowane dla testowania w oparciu o tabelę decyzyjną wym
 zaprojektowania jednego testu dla każdej kolumny w tablicy, co zwykle oznacza
 wykorzystanie wszystkich kombinacji warunków uruchamiających.
 
-#### Testowanie przejść między  stanami
+#### Testowanie przejść między stanami
 
 System może różnie odpowiadać w zależności od aktualnych warunków oraz od historii (od
 stanu). W takim przypadku zachowanie systemu można opisać diagramem przejść stanów
@@ -739,12 +739,12 @@ opartymi na specyfikacji.
 Testowanie oparte na strukturze (białoskrzynkowe) bazuje na rozpoznanej strukturze
 oprogramowania lub systemu tak jak to widać w następujących przykładach:
 
-* w testach modułowych: strukturą jest kod, to jest instrukcje, decyzje, rozgałęzienia
-lub nawet rozróżnialne ścieżki
-* w testach integracyjnych: strukturą może być hierarchia wywołań (diagram, który
-pokazuje jak moduły wywołują inne moduły)
-* w testach systemowych: strukturą może być budowa menu, proces biznesowy lub
-struktura strony webowej
+- w testach modułowych: strukturą jest kod, to jest instrukcje, decyzje, rozgałęzienia
+  lub nawet rozróżnialne ścieżki
+- w testach integracyjnych: strukturą może być hierarchia wywołań (diagram, który
+  pokazuje jak moduły wywołują inne moduły)
+- w testach systemowych: strukturą może być budowa menu, proces biznesowy lub
+  struktura strony webowej
 
 Pokrycie instrukcji oblicza się przez podzielenie liczby wykonywalnych instrukcji pokrytych
 przez (zaprojektowane lub wykonane) przypadki testowe, przez liczbę wszystkich
@@ -826,30 +826,30 @@ Skuteczność wykrywania usterek w testach i przeglądach może zostać podniesi
 zaangażowanie niezależnych testerów. Niezależność może występować w różnych
 wariantach, włączając w to następujące:
 
-* brak niezależnych testerów, programiści testują swój własny kod
-* niezależni testerzy wewnątrz zespołu projektowego
-* niezależny zespół testowy lub grupa testerów wewnątrz organizacji podlegająca
-kierownikowi projektu lub zarządowi
-* niezależni testerzy z departamentów biznesowych lub społeczności użytkowników
-* niezależni specjaliści od określonych typów testów takich jak użyteczności,
-zabezpieczeń lub certyfikacji oprogramowania (którzy przeprowadzają certyfikację
-oprogramowania na zgodność z regulacjami prawnymi lub standardami)
-* niezależni testerzy, którzy zostali wynajęci lub są na zewnątrz organizacji
+- brak niezależnych testerów, programiści testują swój własny kod
+- niezależni testerzy wewnątrz zespołu projektowego
+- niezależny zespół testowy lub grupa testerów wewnątrz organizacji podlegająca
+  kierownikowi projektu lub zarządowi
+- niezależni testerzy z departamentów biznesowych lub społeczności użytkowników
+- niezależni specjaliści od określonych typów testów takich jak użyteczności,
+  zabezpieczeń lub certyfikacji oprogramowania (którzy przeprowadzają certyfikację
+  oprogramowania na zgodność z regulacjami prawnymi lub standardami)
+- niezależni testerzy, którzy zostali wynajęci lub są na zewnątrz organizacji
 
 ### 5.1.2 Kandydat potrafi wyjaśnić korzyści i wady niezależnego testowania w organizacji
 
 #### Korzyści z niezależności
 
-* niezależni testerzy widzą inne i odmienne usterki niż twórcy oraz nie mają uprzedzeń
-* niezależny tester może zweryfikować założenia poczynione podczas specyfikacji
-i implementacji systemu
+- niezależni testerzy widzą inne i odmienne usterki niż twórcy oraz nie mają uprzedzeń
+- niezależny tester może zweryfikować założenia poczynione podczas specyfikacji
+  i implementacji systemu
 
 #### Wady niezależności
 
-* izolacja od zespołu deweloperskiego (jeżeli niezależność jest całkowita)
-* programiści mogą utracić poczucie odpowiedzialności za jakość
-* niezależni testerzy mogą być postrzegani jako wąskie gardło lub obwiniani za
-opóźnienia w wydaniach
+- izolacja od zespołu deweloperskiego (jeżeli niezależność jest całkowita)
+- programiści mogą utracić poczucie odpowiedzialności za jakość
+- niezależni testerzy mogą być postrzegani jako wąskie gardło lub obwiniani za
+  opóźnienia w wydaniach
 
 ### 5.1.3 Kandydat uznaje potrzebę włączenia różnych członków zespołu podczas tworzenia zespołu testerskiego
 
@@ -861,49 +861,49 @@ operacyjnym lub IT.
 
 #### Typowe zadania lidera testów to
 
-* koordynowanie strategii oraz planu testów z kierownikami projektu i innymi
-interesariuszami
-* tworzenie lub przeglądanie strategii testów w projekcie oraz polityki testowania
-w organizacji
-* przedstawianie perspektywy testowania w innych zadaniach projektowych takich jak
-planowanie integracji
-* planowanie testów, uwzględniając ich kontekst oraz rozumiejąc cele testów i ryzyko,
-włącznie z wyborem podejścia do testów, szacowaniem czasu, pracochłonności
-i kosztów testowania, zdobywaniem zasobów, definiowaniem poziomów testów, cykli
-testowych oraz planowaniem zarządzania incydentami
-* inicjowanie specyfikacji, przygotowania, implementacji i wykonania testów,
-monitorowanie ich wyników oraz sprawdzanie spełnienia kryteriów zakończenia
-* zmiana planów z uwzględnieniem wyników oraz postępu testów (czasami
-udokumentowanego w raporcie statusu testów), a także podejmowanie działań
-koniecznych do rozwiązania problemów
-* zorganizowanie odpowiedniego zarządzania konfiguracją testaliów w celu
-zwiększenia możliwości śledzenia powiązań
-* wprowadzenie odpowiednich metryk do mierzenia postępu testów i oceny jakości
-testowania oraz produktu
-* decydowanie co powinno zostać zautomatyzowane, w jakim stopniu i w jaki sposób
-* wybór narzędzi wspierających testy oraz organizacja dla testerów szkoleń z użycia
-tych narzędzi
-* decydowanie o implementacji środowiska testowego
-* sporządzanie raportów podsumowujących testy bazując na informacjach zebranych
-podczas testów
+- koordynowanie strategii oraz planu testów z kierownikami projektu i innymi
+  interesariuszami
+- tworzenie lub przeglądanie strategii testów w projekcie oraz polityki testowania
+  w organizacji
+- przedstawianie perspektywy testowania w innych zadaniach projektowych takich jak
+  planowanie integracji
+- planowanie testów, uwzględniając ich kontekst oraz rozumiejąc cele testów i ryzyko,
+  włącznie z wyborem podejścia do testów, szacowaniem czasu, pracochłonności
+  i kosztów testowania, zdobywaniem zasobów, definiowaniem poziomów testów, cykli
+  testowych oraz planowaniem zarządzania incydentami
+- inicjowanie specyfikacji, przygotowania, implementacji i wykonania testów,
+  monitorowanie ich wyników oraz sprawdzanie spełnienia kryteriów zakończenia
+- zmiana planów z uwzględnieniem wyników oraz postępu testów (czasami
+  udokumentowanego w raporcie statusu testów), a także podejmowanie działań
+  koniecznych do rozwiązania problemów
+- zorganizowanie odpowiedniego zarządzania konfiguracją testaliów w celu
+  zwiększenia możliwości śledzenia powiązań
+- wprowadzenie odpowiednich metryk do mierzenia postępu testów i oceny jakości
+  testowania oraz produktu
+- decydowanie co powinno zostać zautomatyzowane, w jakim stopniu i w jaki sposób
+- wybór narzędzi wspierających testy oraz organizacja dla testerów szkoleń z użycia
+  tych narzędzi
+- decydowanie o implementacji środowiska testowego
+- sporządzanie raportów podsumowujących testy bazując na informacjach zebranych
+  podczas testów
 
 #### Typowe zadania testera to
 
-* przeglądanie i wnoszenie wkładu do planów testów
-* analiza, przegląd oraz ocena wymagań użytkownika, specyfikacji oraz modeli ze
-szczególnym uwzględnieniem testowalności
-* tworzenie specyfikacji testów
-* współtworzenie środowiska testowego (często jest to koordynacja pracy
-administratorów oraz osób odpowiedzialnych za sieć)
-* przygotowanie i pozyskanie danych testowych
-* implementacja testów na wszystkich poziomach, wykonanie i logowanie testów,
-ocena wyników oraz dokumentowanie odchyleń od oczekiwanych wyników
-* używanie narzędzi do administracji lub zarządzania testami oraz narzędzi do
-monitorowania testów, gdy jest to wymagane
-* automatyzacja testów (może być wspierana przez programistę lub eksperta od
-automatyzacji testów)
-* pomiar wydajności modułów i systemów (o ile ma zastosowanie)
-* przeglądanie testów wytworzonych przez innych
+- przeglądanie i wnoszenie wkładu do planów testów
+- analiza, przegląd oraz ocena wymagań użytkownika, specyfikacji oraz modeli ze
+  szczególnym uwzględnieniem testowalności
+- tworzenie specyfikacji testów
+- współtworzenie środowiska testowego (często jest to koordynacja pracy
+  administratorów oraz osób odpowiedzialnych za sieć)
+- przygotowanie i pozyskanie danych testowych
+- implementacja testów na wszystkich poziomach, wykonanie i logowanie testów,
+  ocena wyników oraz dokumentowanie odchyleń od oczekiwanych wyników
+- używanie narzędzi do administracji lub zarządzania testami oraz narzędzi do
+  monitorowania testów, gdy jest to wymagane
+- automatyzacja testów (może być wspierana przez programistę lub eksperta od
+  automatyzacji testów)
+- pomiar wydajności modułów i systemów (o ile ma zastosowanie)
+- przeglądanie testów wytworzonych przez innych
 
 ## 5.2 Planowanie i szacowanie testów
 
@@ -921,49 +921,49 @@ sytuacji w projekcie.
 
 #### W planowanie testów dla całego systemu lub jego części mogą wchodzić następujące czynności
 
-* ustalenie zakresu i ryzyka oraz zidentyfikowanie celów testowania
-* zdefiniowanie ogólnego podejścia do testowania włącznie z definicją poziomów
-testów oraz kryteriów wejścia i zakończenia
-* integrowanie i koordynowanie zadań testowych z innymi zadaniami cyklu życia
-oprogramowania: zakupami, dostawami, rozwojem, działaniem produkcyjnym oraz
-pielęgnacją
-* podejmowanie decyzji co testować, którym rolom będą przypisane które zadania
-testowe, jak zadania testowe powinny być wykonane oraz jak powinno się oceniać
-wyniki testów
-* harmonogramowanie analizy i projektowania testów
-* harmonogramowanie implementacji, wykonania i oceny testów
-* przydzielanie zasobów do zadań testowych
-* definiowanie ilości, poziomu szczegółowości, struktury oraz wzorców dokumentacji
-testowej
-* wybór metryk do monitorowania i kontroli przygotowania i wykonania testów,
-naprawy defektów oraz elementów ryzyka
-* decydowanie o poziomie szczegółowości procedur testowych, aby dostarczyć
-wystarczającą ilość informacji dla powtarzalnego przygotowania i wykonania testów
+- ustalenie zakresu i ryzyka oraz zidentyfikowanie celów testowania
+- zdefiniowanie ogólnego podejścia do testowania włącznie z definicją poziomów
+  testów oraz kryteriów wejścia i zakończenia
+- integrowanie i koordynowanie zadań testowych z innymi zadaniami cyklu życia
+  oprogramowania: zakupami, dostawami, rozwojem, działaniem produkcyjnym oraz
+  pielęgnacją
+- podejmowanie decyzji co testować, którym rolom będą przypisane które zadania
+  testowe, jak zadania testowe powinny być wykonane oraz jak powinno się oceniać
+  wyniki testów
+- harmonogramowanie analizy i projektowania testów
+- harmonogramowanie implementacji, wykonania i oceny testów
+- przydzielanie zasobów do zadań testowych
+- definiowanie ilości, poziomu szczegółowości, struktury oraz wzorców dokumentacji
+  testowej
+- wybór metryk do monitorowania i kontroli przygotowania i wykonania testów,
+  naprawy defektów oraz elementów ryzyka
+- decydowanie o poziomie szczegółowości procedur testowych, aby dostarczyć
+  wystarczającą ilość informacji dla powtarzalnego przygotowania i wykonania testów
 
 ### 5.2.3 Kandydat rozróżnia odmienne podejścia do testowania, takie jak analityczne, oparte na modelach, metodyczne, zgodne z procesem lub standardem, dynamiczne/heurystyczne, konsultatywne oraz regresywne
 
 #### Typowe podejścia do testów to
 
-* podejścia analityczne, takie jak testy oparte na ryzyku, w którym testowanie jest
-kierowane na obszary o największym ryzyku
-* podejścia oparte na modelach, takie jak testowanie stochastyczne wykorzystujące
-informacje statystyczne na temat współczynników awarii (takich jak modele wzrostu
-niezawodności oprogramowania) lub wykorzystania oprogramowania (takich jak
-profile operacyjne)
-* podejścia metodyczne, takie jak podejścia oparte na awariach (włącznie ze
-zgadywaniem błędów i atakami usterkowymi), oparte na doświadczeniu, na listach
-kontrolnych lub na atrybutach jakościowych
-* podejścia zgodne ze standardem lub procesem, takie jak te określone przez
-standardy przemysłowe lub metodyki zwinne
-* podejścia dynamiczne i heurystyczne, takie jak testowanie eksploracyjne, w którym
-testowanie bardziej reaguje na zdarzenia podczas testów niż jest wykonywane
-według planu i w którym wykonywanie testów i ocena wyników dzieją się równolegle
-* podejścia konsultatywne, w których pokrycie testowe jest sterowane głównie przez
-wskazówki i porady ekspertów technologicznych lub biznesowych z zewnątrz zespołu
-testowego
-* podejścia regresywne, w których używa się powtórnie istniejących materiałów
-testowych, rozbudowanej automatyzacji regresywnych testów funkcjonalnych oraz
-standardowych zestawów testów
+- podejścia analityczne, takie jak testy oparte na ryzyku, w którym testowanie jest
+  kierowane na obszary o największym ryzyku
+- podejścia oparte na modelach, takie jak testowanie stochastyczne wykorzystujące
+  informacje statystyczne na temat współczynników awarii (takich jak modele wzrostu
+  niezawodności oprogramowania) lub wykorzystania oprogramowania (takich jak
+  profile operacyjne)
+- podejścia metodyczne, takie jak podejścia oparte na awariach (włącznie ze
+  zgadywaniem błędów i atakami usterkowymi), oparte na doświadczeniu, na listach
+  kontrolnych lub na atrybutach jakościowych
+- podejścia zgodne ze standardem lub procesem, takie jak te określone przez
+  standardy przemysłowe lub metodyki zwinne
+- podejścia dynamiczne i heurystyczne, takie jak testowanie eksploracyjne, w którym
+  testowanie bardziej reaguje na zdarzenia podczas testów niż jest wykonywane
+  według planu i w którym wykonywanie testów i ocena wyników dzieją się równolegle
+- podejścia konsultatywne, w których pokrycie testowe jest sterowane głównie przez
+  wskazówki i porady ekspertów technologicznych lub biznesowych z zewnątrz zespołu
+  testowego
+- podejścia regresywne, w których używa się powtórnie istniejących materiałów
+  testowych, rozbudowanej automatyzacji regresywnych testów funkcjonalnych oraz
+  standardowych zestawów testów
 
 ### 5.2.4 Kandydat odróżnia planowanie testów systemu od harmonogramowania ich wykonania
 
@@ -985,44 +985,44 @@ systemu (np. system niestandardowy vs. z półki), cele testów i uregulowania p
 
 #### Pracochłonność testów może zależeć od wielu czynników, a w tym
 
-* cech produktu:
-  * jakości specyfikacji oraz innych informacji używanych w modelach testowych (tj.
-w podstawie testów), wielkości produktu, złożoności dziedziny problemu, wymagań
-na niezawodność oraz zabezpieczenie oraz wymagań na dokumentację
-* cech procesu produkcyjnego:
-  * stabilności organizacji, użytych narzędzi, procesu testowego, umiejętności ludzi oraz
-presji czasu
-* wyników testów:
-  * liczby usterek oraz pracochłonności napraw i przeróbek
+- cech produktu:
+  - jakości specyfikacji oraz innych informacji używanych w modelach testowych (tj.
+    w podstawie testów), wielkości produktu, złożoności dziedziny problemu, wymagań
+    na niezawodność oraz zabezpieczenie oraz wymagań na dokumentację
+- cech procesu produkcyjnego:
+  - stabilności organizacji, użytych narzędzi, procesu testowego, umiejętności ludzi oraz
+    presji czasu
+- wyników testów:
+  - liczby usterek oraz pracochłonności napraw i przeróbek
 
 ### 5.2.8 Kandydat odróżnia od siebie dwa koncepcyjnie odmienne podejścia do szacowania: podejścia bazujące na metrykach i podejścia wykorzystujące ekspertów
 
 #### Istnieją dwa podejścia do szacowania pracochłonności testów
 
-* podejście oparte na metrykach
-  * szacowanie pracochłonności testów bazując na pomiarach minionych lub podobnych
-projektów lub bazujące na typowych wartościach
-* podejście oparte na ekspertach
-  * szacowanie zadań przez ich przyszłych wykonawców lub przez ekspertów
+- podejście oparte na metrykach
+  - szacowanie pracochłonności testów bazując na pomiarach minionych lub podobnych
+    projektów lub bazujące na typowych wartościach
+- podejście oparte na ekspertach
+  - szacowanie zadań przez ich przyszłych wykonawców lub przez ekspertów
 
 ### 5.2.9 Kandydat potrafi rozpoznać i uzasadnić odpowiednie kryteria wejścia oraz zakończenia konkretnych poziomów testowania oraz grup przypadków testowych (np. testów integracyjnych, testów akceptacyjnych lub przypadków testowych w testach użyteczności)
 
 #### Kryteria wejścia zwykle mogą zawierać następujące zagadnienia
 
-* dostępność i gotowość środowiska testowego
-* gotowość narzędzi testowych w środowisku testowym
-* dostępność testowalnego kodu
-* dostępność danych testowych
+- dostępność i gotowość środowiska testowego
+- gotowość narzędzi testowych w środowisku testowym
+- dostępność testowalnego kodu
+- dostępność danych testowych
 
 #### Typowo kryteria zakończenia mogą składać się z
 
-* miar staranności, takich jak pokrycie kodu, funkcjonalności lub ryzyka
-* estymat gęstości błędów lub miar niezawodności
-* kosztu
-* istniejącego ryzyka, takiego jak niepoprawione usterki lub brak pokrycia pewnych
-obszarów
-* harmonogramów np. zdefiniowanych na podstawie czasu do wypuszczenia produktu
-na rynek.
+- miar staranności, takich jak pokrycie kodu, funkcjonalności lub ryzyka
+- estymat gęstości błędów lub miar niezawodności
+- kosztu
+- istniejącego ryzyka, takiego jak niepoprawione usterki lub brak pokrycia pewnych
+  obszarów
+- harmonogramów np. zdefiniowanych na podstawie czasu do wypuszczenia produktu
+  na rynek.
 
 ## 5.3 Monitorowanie postępu testów i nadzór
 
@@ -1030,45 +1030,45 @@ na rynek.
 
 #### Często wykorzystywanymi metrykami są
 
-* procent pracy wykonanej przy przygotowywaniu przypadków testowych lub odsetek
-przygotowanych przypadków testowych
-* procent prac wykonanych przy przygotowywaniu środowiska testowego
-* wykonanie przypadków testowych (np. liczba wykonanych/nie wykonanych
-przypadków testowych oraz liczba przypadków testowych zaliczonych/niezaliczonych
-* informacje o usterkach (np. gęstość błędów, defekty znalezione i poprawione,
-współczynnik awarii oraz wyniki testów)
-* pokrycie testami wymagań, ryzyka i kodu
-* subiektywne zaufanie testerów do produktu
-* daty kamieni milowych
-* koszt testowania, włączając w to porównanie kosztu do korzyści dla znalezienia
-kolejnego defektu lub wykonania kolejnego testu
+- procent pracy wykonanej przy przygotowywaniu przypadków testowych lub odsetek
+  przygotowanych przypadków testowych
+- procent prac wykonanych przy przygotowywaniu środowiska testowego
+- wykonanie przypadków testowych (np. liczba wykonanych/nie wykonanych
+  przypadków testowych oraz liczba przypadków testowych zaliczonych/niezaliczonych
+- informacje o usterkach (np. gęstość błędów, defekty znalezione i poprawione,
+  współczynnik awarii oraz wyniki testów)
+- pokrycie testami wymagań, ryzyka i kodu
+- subiektywne zaufanie testerów do produktu
+- daty kamieni milowych
+- koszt testowania, włączając w to porównanie kosztu do korzyści dla znalezienia
+  kolejnego defektu lub wykonania kolejnego testu
 
 ### 5.3.2 Kandydat potrafi wyjaśnić i porównać metryki stosowane w raportowaniu i kontroli testów (np. znalezione i poprawione usterki, zaliczone i niezaliczone testy)
 
 #### Przykładami działań związanych z kierowaniem testami są
 
-* podejmowanie decyzji na podstawie informacji uzyskanych z monitorowania testów
-* zmiana priorytetów testów, kiedy zmaterializuje się ryzyko (np. oprogramowanie
-zostanie dostarczone z opóźnieniem)
-* zmiana harmonogramu testów związana z dostępnością lub niedostępnością
-środowiska testowego
-* ustanowienie kryteriów wejścia wymagających, aby programista zretestował
-poprawki (wykonał testy potwierdzające) zanim włączy je do wydania.
+- podejmowanie decyzji na podstawie informacji uzyskanych z monitorowania testów
+- zmiana priorytetów testów, kiedy zmaterializuje się ryzyko (np. oprogramowanie
+  zostanie dostarczone z opóźnieniem)
+- zmiana harmonogramu testów związana z dostępnością lub niedostępnością
+  środowiska testowego
+- ustanowienie kryteriów wejścia wymagających, aby programista zretestował
+  poprawki (wykonał testy potwierdzające) zanim włączy je do wydania.
 
 ### 5.3.3 Kandydat potrafi omówić krótko cel i zawartość raportu podsumowującego testy zgodnie ze standardem dokumentacji testowania oprogramowania
 
 #### Raportowanie testów podaje podsumowanie projektu testowego, a w tym
 
-* co się zdarzyło w czasie testowania, np. daty spełnienia kryteriów zakończenia
-* analizę informacji oraz metryk wspierającą rekomendację oraz decyzje co do
-przyszłych działań, takich jak pozostałe usterki, opłacalność dalszego testowania,
-pozostałe obszary ryzyka oraz poziom zaufania do testowanego oprogramowania
+- co się zdarzyło w czasie testowania, np. daty spełnienia kryteriów zakończenia
+- analizę informacji oraz metryk wspierającą rekomendację oraz decyzje co do
+  przyszłych działań, takich jak pozostałe usterki, opłacalność dalszego testowania,
+  pozostałe obszary ryzyka oraz poziom zaufania do testowanego oprogramowania
 
 #### Pomiary powinny być wykonywane w trakcie oraz na koniec poziomu testów, żeby ocenić
 
-* dopasowanie celów testów do poziomu testów
-* adekwatność wybranego podejścia do testów
-* skuteczność testów w odniesieniu do celów testowania
+- dopasowanie celów testów do poziomu testów
+- adekwatność wybranego podejścia do testów
+- skuteczność testów w odniesieniu do celów testowania
 
 ## 5.4 Zarządzanie konfiguracją
 
@@ -1085,28 +1085,28 @@ element, dokumenty testowe, testy oraz jarzmo testowe.
 
 #### Ryzyko projektowe, to obszary ryzyka otaczające zdolność projektu do osiągnięcia postawionych przed nim celów, takie jak
 
-* czynniki organizacyjne
-  * braki w umiejętnościach, szkoleniach lub personelu
-  * problemy kadrowe
-  * problemy polityczne takie jak:
-    * problemy z testerami komunikującymi swoje potrzeby oraz wyniki testów
-    * brak reakcji zespołu w związku z informacjami pozyskanymi podczas
-testów i przeglądów (np. brak doskonalenia procesów produkcji
-i testowania)
-  * nieprawidłowe nastawienie i oczekiwania od testowania (np. niedocenianie
-wartości znajdowania błędów podczas testowania)
-* problemy techniczne
-  * problemy ze zdefiniowaniem poprawnych wymagań
-  * stopień, w jakim wymagania mogą zostać spełnione przy istniejących
-ograniczeniach
-  * środowisko testowe niegotowe na czas
-  * spóźniona konwersja danych, planowanie migracji oraz rozwój i testowanie
-narzędzi do migracji i konwersji danych
-  * niska jakość projektu, kodu, danych konfiguracyjnych, danych testowych
-i testów
-* problemy z dostawcami
-  * niewywiązywanie się dostawców ze zobowiązań
-  * problemy z kontraktami
+- czynniki organizacyjne
+  - braki w umiejętnościach, szkoleniach lub personelu
+  - problemy kadrowe
+  - problemy polityczne takie jak:
+    _ problemy z testerami komunikującymi swoje potrzeby oraz wyniki testów
+    _ brak reakcji zespołu w związku z informacjami pozyskanymi podczas
+    testów i przeglądów (np. brak doskonalenia procesów produkcji
+    i testowania)
+  - nieprawidłowe nastawienie i oczekiwania od testowania (np. niedocenianie
+    wartości znajdowania błędów podczas testowania)
+- problemy techniczne
+  - problemy ze zdefiniowaniem poprawnych wymagań
+  - stopień, w jakim wymagania mogą zostać spełnione przy istniejących
+    ograniczeniach
+  - środowisko testowe niegotowe na czas
+  - spóźniona konwersja danych, planowanie migracji oraz rozwój i testowanie
+    narzędzi do migracji i konwersji danych
+  - niska jakość projektu, kodu, danych konfiguracyjnych, danych testowych
+    i testów
+- problemy z dostawcami
+  - niewywiązywanie się dostawców ze zobowiązań
+  - problemy z kontraktami
 
 ### 5.5.2 Kandydat pamięta, że poziom ryzyka jest określany przez prawdopodobieństwo wystąpienia oraz wpływ (potencjalną szkodę, jaką może uczynić gdy wystąpi)
 
@@ -1122,15 +1122,15 @@ Potencjalne obszary wystąpienia awarii (przyszłych niekorzystnych zdarzeń lub
 niebezpieczeństw) w oprogramowaniu lub systemie nazywane są ryzykiem
 produktowym, ponieważ stanowią ryzyko dla jakości produktu. Mogą to być:
 
-* dostarczanie awaryjnego oprogramowania
-* możliwość wyrządzenia szkody człowiekowi lub firmie przez oprogramowanie lub
-sprzęt
-* niedostateczne atrybuty oprogramowania (np. funkcjonalność, niezawodność,
-użyteczność lub wydajność)
-* niska jakość lub brak spójności danych (np. problemy z migracją danych, problemy
-z konwersją danych, problemy z przekazywaniem danych, naruszenie standardów
-danych)
-* oprogramowanie, które nie spełnia założonych funkcji
+- dostarczanie awaryjnego oprogramowania
+- możliwość wyrządzenia szkody człowiekowi lub firmie przez oprogramowanie lub
+  sprzęt
+- niedostateczne atrybuty oprogramowania (np. funkcjonalność, niezawodność,
+  użyteczność lub wydajność)
+- niska jakość lub brak spójności danych (np. problemy z migracją danych, problemy
+  z konwersją danych, problemy z przekazywaniem danych, naruszenie standardów
+  danych)
+- oprogramowanie, które nie spełnia założonych funkcji
 
 Oparte na ryzyku podejście do testowania umożliwia w sposób proaktywny obniżanie ryzyka
 produktowego rozpoczynając już od wstępnej fazy projektu. Zawiera ono identyfikację
@@ -1138,12 +1138,12 @@ obszarów ryzyka produktowego, co umożliwia użycie ich jako wskazówek w plano
 i kontroli testów, specyfikacji, przygotowaniu oraz wykonaniu testów. W podejściu do testów
 opartym na ryzyku zidentyfikowane obszary ryzyka mogą zostać wykorzystane do:
 
-* określenia technik testowania, które powinny zostać użyte
-* określenia zakresu testów
-* priorytetyzacji testów w celu znalezienia usterek krytycznych tak wcześnie jak to tylko
-możliwe
-* określenia, czy nie można użyć działań niezwiązanych z testowaniem w celu redukcji
-ryzyka (np. przeszkolenie niedoświadczonych projektantów)
+- określenia technik testowania, które powinny zostać użyte
+- określenia zakresu testów
+- priorytetyzacji testów w celu znalezienia usterek krytycznych tak wcześnie jak to tylko
+  możliwe
+- określenia, czy nie można użyć działań niezwiązanych z testowaniem w celu redukcji
+  ryzyka (np. przeszkolenie niedoświadczonych projektantów)
 
 ### 5.5.5 Kandydat potrafi opisać przy użyciu przykładów jak analiza ryzyka i zarządzanie ryzykiem mogą zostać wykorzystane przy planowaniu testów
 
@@ -1154,9 +1154,9 @@ odnieść się do nich.
 W celu zapewnienia minimalizacji szansy wystąpienia awarii produktu, zarządzanie ryzykiem
 daje zdyscyplinowane podejście do:
 
-* oceny (powtarzanej regularnie), co może pójść nie tak (ryzyka)
-* ustalenia, którymi obszarami ryzyka należy się zająć
-* wdrożenia działań zarządzających tymi obszarami ryzyka
+- oceny (powtarzanej regularnie), co może pójść nie tak (ryzyka)
+- ustalenia, którymi obszarami ryzyka należy się zająć
+- wdrożenia działań zarządzających tymi obszarami ryzyka
 
 ## 5.6 Zarządzanie incydentami
 
@@ -1164,35 +1164,35 @@ daje zdyscyplinowane podejście do:
 
 #### Raport incydentów może zawierać następujące szczegóły
 
-* datę zgłoszenia, zgłaszającą organizację oraz autora
-* wyniki oczekiwane oraz rzeczywiste
-* wskazanie na element testowy (element konfiguracji) oraz na środowisko
-* proces cyklu życia oprogramowania lub systemu w którym incydent został
-zaobserwowany
-* opis incydentu, w celu umożliwienia odtworzenia i rozwiązania, włącznie z logami,
-zrzutami baz danych oraz zrzutami ekranu
-* obszar lub stopień wpływu na interesy interesariuszy
-* stopień wpływu na system
-* pilność, priorytet naprawy
-* status incydentu (np. otwarty, odłożony, duplikat, oczekujący na naprawę,
-naprawiony i oczekujący na retest, zamknięty)
-* podsumowania, rekomendacje oraz zgody
-* zagadnienia globalne, takie jak inne obszary, na które mogą mieć wpływ zmiany
-związane z incydentem
-* historia zmian, np. ciąg czynności podjętych przez członków zespołu w celu
-wyizolowania incydentu, jego naprawy oraz potwierdzenia tej naprawy
-* referencje, włączając w to identyfikator specyfikacji przypadku testowego, który
-wykrył problem
+- datę zgłoszenia, zgłaszającą organizację oraz autora
+- wyniki oczekiwane oraz rzeczywiste
+- wskazanie na element testowy (element konfiguracji) oraz na środowisko
+- proces cyklu życia oprogramowania lub systemu w którym incydent został
+  zaobserwowany
+- opis incydentu, w celu umożliwienia odtworzenia i rozwiązania, włącznie z logami,
+  zrzutami baz danych oraz zrzutami ekranu
+- obszar lub stopień wpływu na interesy interesariuszy
+- stopień wpływu na system
+- pilność, priorytet naprawy
+- status incydentu (np. otwarty, odłożony, duplikat, oczekujący na naprawę,
+  naprawiony i oczekujący na retest, zamknięty)
+- podsumowania, rekomendacje oraz zgody
+- zagadnienia globalne, takie jak inne obszary, na które mogą mieć wpływ zmiany
+  związane z incydentem
+- historia zmian, np. ciąg czynności podjętych przez członków zespołu w celu
+  wyizolowania incydentu, jego naprawy oraz potwierdzenia tej naprawy
+- referencje, włączając w to identyfikator specyfikacji przypadku testowego, który
+  wykrył problem
 
 ### 5.6.2 Kandydat potrafi napisać raport incydentu zawierający opis awarii zaobserwowanej podczas testowania
 
 #### Raporty incydentów istnieją w celu
 
-* dostarczenia programistom i innym stronom informacji na temat problemów, aby
-umożliwić identyfikację, wyodrębnienie i naprawę, jeżeli okaże się to konieczne
-* dostarczenia liderom testów środków do śledzenia jakości testowanego systemu oraz
-postępu testów
-* dostarczenia pomysłów na doskonalenie procesu testowania
+- dostarczenia programistom i innym stronom informacji na temat problemów, aby
+  umożliwić identyfikację, wyodrębnienie i naprawę, jeżeli okaże się to konieczne
+- dostarczenia liderom testów środków do śledzenia jakości testowanego systemu oraz
+  postępu testów
+- dostarczenia pomysłów na doskonalenie procesu testowania
 
 ## 6.1 Typy narzędzi testowych
 
@@ -1200,28 +1200,28 @@ postępu testów
 
 #### Narzędzia testowe mogą być wykorzystywane w jednej lub wielu czynnościach wspierających testowanie. Mogą to być
 
-* narzędzia używane wprost w testach takie jak narzędzia wspierające wykonanie
-testów, narzędzia generujące dane testowe i narzędzia porównujące wyniki
-* narzędzia wspomagające zarządzanie procesem testowym takie jak narzędzia do
-zarządzania testami, wynikami testów, danymi, wymaganiami, incydentami,
-defektami itd. oraz narzędzia raportujące i monitorujące wykonanie testów
-* narzędzia używane w rozpoznaniu (eksploracji), np. narzędzia monitorujące dostęp
-do plików przez aplikację
-* dowolne narzędzie wspierające testy (w takim znaczeniu arkusz kalkulacyjny jest
-również narzędziem testowym)
+- narzędzia używane wprost w testach takie jak narzędzia wspierające wykonanie
+  testów, narzędzia generujące dane testowe i narzędzia porównujące wyniki
+- narzędzia wspomagające zarządzanie procesem testowym takie jak narzędzia do
+  zarządzania testami, wynikami testów, danymi, wymaganiami, incydentami,
+  defektami itd. oraz narzędzia raportujące i monitorujące wykonanie testów
+- narzędzia używane w rozpoznaniu (eksploracji), np. narzędzia monitorujące dostęp
+  do plików przez aplikację
+- dowolne narzędzie wspierające testy (w takim znaczeniu arkusz kalkulacyjny jest
+  również narzędziem testowym)
 
 #### W zależności od kontekstu wsparcie narzędziowe dla testów może mieć jeden lub kilka z poniższych celów
 
-* zwiększenie efektywności czynności testowych przez zautomatyzowanie
-powtarzających się zadań lub wsparcie dla czynności testowych wykonywanych
-ręcznie takich jak planowanie testów, projektowanie testów, raportowanie
-i monitorowanie testów
-* automatyzacja czynności, które wymagałyby wielkich nakładów, gdyby były
-wykonywane ręcznie (np. testy statyczne)
-* automatyzacja czynności, które nie mogą być wykonane ręcznie (np. testy aplikacji
-klient-serwer na wielką skalę)
-* zwiększenie niezawodności testów (np. przez automatyzację porównywania dużej
-ilości danych lub symulacje)
+- zwiększenie efektywności czynności testowych przez zautomatyzowanie
+  powtarzających się zadań lub wsparcie dla czynności testowych wykonywanych
+  ręcznie takich jak planowanie testów, projektowanie testów, raportowanie
+  i monitorowanie testów
+- automatyzacja czynności, które wymagałyby wielkich nakładów, gdyby były
+  wykonywane ręcznie (np. testy statyczne)
+- automatyzacja czynności, które nie mogą być wykonane ręcznie (np. testy aplikacji
+  klient-serwer na wielką skalę)
+- zwiększenie niezawodności testów (np. przez automatyzację porównywania dużej
+  ilości danych lub symulacje)
 
 ### 6.1.2 Kandydat potrafi wyjaśnić pojęcie "narzędzie testowe" oraz cel wsparcia narzędziowego dla testów
 
@@ -1244,35 +1244,35 @@ wyniki pokrycia kodu. Zjawisko to jest nazywane efektem próbnika.
 
 #### Potencjalnymi korzyściami z używania narzędzi są
 
-* zredukowana zostaje powtarzająca się praca (np. uruchamianie testów
-regresywnych, powtórne wprowadzanie tych samych danych testowych oraz
-sprawdzanie zgodności ze standardami kodowania)
-* zwiększa się spójność i powtarzalność (np. testy wykonywane przez narzędzie w tej
-samej kolejności i z tą samą częstością oraz testy wywiedzione z wymagań)
-* ocena jest obiektywna (np. miary statyczne, pokrycie)
-* łatwiejszy jest dostęp do danych o testach i testowaniu (np. statystyki i wykresy
-obrazujące postęp testów, współczynniki występowania incydentów oraz wydajność)
+- zredukowana zostaje powtarzająca się praca (np. uruchamianie testów
+  regresywnych, powtórne wprowadzanie tych samych danych testowych oraz
+  sprawdzanie zgodności ze standardami kodowania)
+- zwiększa się spójność i powtarzalność (np. testy wykonywane przez narzędzie w tej
+  samej kolejności i z tą samą częstością oraz testy wywiedzione z wymagań)
+- ocena jest obiektywna (np. miary statyczne, pokrycie)
+- łatwiejszy jest dostęp do danych o testach i testowaniu (np. statystyki i wykresy
+  obrazujące postęp testów, współczynniki występowania incydentów oraz wydajność)
 
 #### Ryzyko związane z narzędziami do testowania obejmuje
 
-* nierealistyczne oczekiwania od narzędzia (co do funkcjonalności lub łatwości użycia)
-* niedoszacowanie czasu, kosztów oraz pracochłonności wstępnego wdrożenia
-narzędzia (włączając w to szkolenia oraz ekspertów zewnętrznych)
-* niedoszacowanie czasu i pracochłonności potrzebnych do osiągnięcia znaczących
-i trwałych korzyści z narzędzia (włączając w to potrzebę wykonania zmian w procesie
-testowym oraz ciągłe doskonalenie sposobu wykorzystania narzędzia)
-* niedoszacowanie pracochłonności utrzymania artefaktów testowych
-wygenerowanych przez narzędzie
-zbytnie poleganie na narzędziu (zastąpienie narzędziem projektowania testów lub
-wykorzystywanie narzędzia, gdy testowanie ręczne byłoby lepsze)
-* niewykorzystywanie kontroli wersji testaliów w narzędziu
-* lekceważenie zależności i problemów z współpracą krytycznych narzędzi takich jak,
-narzędzia do zarządzania wymaganiami, narzędzia do kontroli wersji, narzędzia do
-zarządzania incydentami, narzędzia do śledzenia defektów oraz narzędzia od różnych
-dostawców
-* słaba reakcja dostawcy w ramach wsparcia, nowych wersji oraz poprawiania usterek
-* ryzyko wstrzymania projektu dla narzędzia darmowego / open-source
-* nieprzewidziane, takie jak niezdolność do wspierania nowej platformy
+- nierealistyczne oczekiwania od narzędzia (co do funkcjonalności lub łatwości użycia)
+- niedoszacowanie czasu, kosztów oraz pracochłonności wstępnego wdrożenia
+  narzędzia (włączając w to szkolenia oraz ekspertów zewnętrznych)
+- niedoszacowanie czasu i pracochłonności potrzebnych do osiągnięcia znaczących
+  i trwałych korzyści z narzędzia (włączając w to potrzebę wykonania zmian w procesie
+  testowym oraz ciągłe doskonalenie sposobu wykorzystania narzędzia)
+- niedoszacowanie pracochłonności utrzymania artefaktów testowych
+  wygenerowanych przez narzędzie
+  zbytnie poleganie na narzędziu (zastąpienie narzędziem projektowania testów lub
+  wykorzystywanie narzędzia, gdy testowanie ręczne byłoby lepsze)
+- niewykorzystywanie kontroli wersji testaliów w narzędziu
+- lekceważenie zależności i problemów z współpracą krytycznych narzędzi takich jak,
+  narzędzia do zarządzania wymaganiami, narzędzia do kontroli wersji, narzędzia do
+  zarządzania incydentami, narzędzia do śledzenia defektów oraz narzędzia od różnych
+  dostawców
+- słaba reakcja dostawcy w ramach wsparcia, nowych wersji oraz poprawiania usterek
+- ryzyko wstrzymania projektu dla narzędzia darmowego / open-source
+- nieprzewidziane, takie jak niezdolność do wspierania nowej platformy
 
 ### 6.2.2 Kandydat pamięta specjalne uwarunkowania dla narzędzi wspierających wykonywanie testów, analizę statyczną oraz zarządzanie testami
 
@@ -1303,42 +1303,42 @@ najbardziej pasuje do potrzeb organizacji.
 
 #### Główne aspekty do wzięcia pod uwagę podczas wyboru narzędzia dla organizacji to
 
-* ocena dojrzałości organizacji, mocnych i słabych stron oraz identyfikacja możliwości
-doskonalenia procesu testowania wspieranego narzędziami
-* ocena według jasnych wymagań oraz obiektywnych kryteriów
-* wykonanie dowodu słuszności pomysłu (proof-of-concept) z użyciem narzędzia
-testowego, po to żeby zbadać, czy jest ono skuteczne dla danego testowanego
-oprogramowania w ramach istniejącej infrastruktury lub po to, żeby określić jakie
-zmiany w infrastrukturze są potrzebne do skutecznego użycia narzędzia
-* ocena dostawcy (włącznie ze szkoleniami, wsparciem oraz aspektami komercyjnymi)
-lub firm udzielających wsparcia w przypadku narzędzi niekomercyjnych
-* identyfikacja wymagań wewnętrznych na doradztwo i szkolenia w użyciu narzędzia
-* ocena potrzeb szkoleniowych z uwzględnieniem obecnych umiejętności
-automatyzacji testów przez zespół testowy
-* szacowanie stosunku korzyści do kosztów na podstawie konkretnego przypadku
-biznesowego
+- ocena dojrzałości organizacji, mocnych i słabych stron oraz identyfikacja możliwości
+  doskonalenia procesu testowania wspieranego narzędziami
+- ocena według jasnych wymagań oraz obiektywnych kryteriów
+- wykonanie dowodu słuszności pomysłu (proof-of-concept) z użyciem narzędzia
+  testowego, po to żeby zbadać, czy jest ono skuteczne dla danego testowanego
+  oprogramowania w ramach istniejącej infrastruktury lub po to, żeby określić jakie
+  zmiany w infrastrukturze są potrzebne do skutecznego użycia narzędzia
+- ocena dostawcy (włącznie ze szkoleniami, wsparciem oraz aspektami komercyjnymi)
+  lub firm udzielających wsparcia w przypadku narzędzi niekomercyjnych
+- identyfikacja wymagań wewnętrznych na doradztwo i szkolenia w użyciu narzędzia
+- ocena potrzeb szkoleniowych z uwzględnieniem obecnych umiejętności
+  automatyzacji testów przez zespół testowy
+- szacowanie stosunku korzyści do kosztów na podstawie konkretnego przypadku
+  biznesowego
 
 ### 6.3.2 Kandydat potrafi wymienić cele dowodu słuszności pomysłu (proof-ofconcept) w ocenie narzędzia oraz cele fazy pilotażowej we wdrażaniu tego narzędzia
 
 #### Wdrażanie wybranego narzędzia w organizacji zaczyna się od projektu pilotażowego, który ma następujące cele
 
-* szczegółowe zapoznanie się z narzędziem
-* ocena czy i jak narzędzie pasuje do obowiązujących procesów i praktyk oraz
-ustalenie, co ewentualnie należałoby zmienić
-ustalenie standardów użycia, zarządzania, przechowywania oraz pielęgnacji narzędzia
-oraz artefaktów testowych (np. wypracowanie konwencji nazewnictwa plików
-i testów, stworzenie bibliotek oraz zdefiniowanie modularyzacji zestawów testów)
-* ocena, czy korzyści zostaną osiągnięte przy rozsądnych kosztach
+- szczegółowe zapoznanie się z narzędziem
+- ocena czy i jak narzędzie pasuje do obowiązujących procesów i praktyk oraz
+  ustalenie, co ewentualnie należałoby zmienić
+  ustalenie standardów użycia, zarządzania, przechowywania oraz pielęgnacji narzędzia
+  oraz artefaktów testowych (np. wypracowanie konwencji nazewnictwa plików
+  i testów, stworzenie bibliotek oraz zdefiniowanie modularyzacji zestawów testów)
+- ocena, czy korzyści zostaną osiągnięte przy rozsądnych kosztach
 
 ### 6.3.3 Kandydat uznaje, że poza samym zakupem narzędzia potrzebne jest też dobre wsparcie w jego użyciu
 
 #### Czynnikami wpływającymi na sukces wdrożenia narzędzia w organizacji są
 
-* stopniowe wdrażanie narzędzia w pozostałej części organizacji
-* adaptacja i udoskonalenie procesu tak, aby pasował do sposobu używania narzędzia
-* zapewnienie szkoleń oraz doradztwa nowym użytkownikom
-* zdefiniowanie wytycznych co do użycia narzędzia
-* wdrożenie sposobu na zbieranie użytecznych informacji z wykorzystania narzędzia
-* monitorowanie wykorzystania narzędzia oraz osiąganych korzyści
-* zapewnienie wsparcia dla zespołu testowego w użyciu danego narzędzia
-* zbieranie wniosków z wykorzystania narzędzia przez wszystkie zespoły
+- stopniowe wdrażanie narzędzia w pozostałej części organizacji
+- adaptacja i udoskonalenie procesu tak, aby pasował do sposobu używania narzędzia
+- zapewnienie szkoleń oraz doradztwa nowym użytkownikom
+- zdefiniowanie wytycznych co do użycia narzędzia
+- wdrożenie sposobu na zbieranie użytecznych informacji z wykorzystania narzędzia
+- monitorowanie wykorzystania narzędzia oraz osiąganych korzyści
+- zapewnienie wsparcia dla zespołu testowego w użyciu danego narzędzia
+- zbieranie wniosków z wykorzystania narzędzia przez wszystkie zespoły
